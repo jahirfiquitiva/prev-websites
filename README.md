@@ -3,10 +3,12 @@ jahirfiquitiva.me
 
 I have created this repository to share the previous versions of [my website](https://www.jahirfiquitiva.me/) with you all.
 
-<a target="_blank" href="http://www.jahirfiquitiva.me/support/">
-<img src="http://jahirfiquitiva.me/share/support_my_work.svg?maxAge=432000" width="200"/>
-</a>
+There are 4 versions available:
+- [v2](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v2)
+- [v3](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v3)
+- [v4](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v4)
 
+Feel free to use any of them but remember to comply with the license :wink:
 
 ## Show some  :blue_heart:
 [![GitHub stars](https://img.shields.io/github/stars/jahirfiquitiva/jahirfiquitiva.me.svg?style=social&label=Star)](https://github.com/jahirfiquitiva/jahirfiquitiva.me)
@@ -16,7 +18,6 @@ I have created this repository to share the previous versions of [my website](ht
 [![Follow on GitHub](https://img.shields.io/github/followers/jahirfiquitiva.svg?style=social&label=Follow)](https://github.com/jahirfiquitiva)
 [![Twitter Follow](https://img.shields.io/twitter/follow/jahirfiquitiva.svg?style=social)](https://twitter.com/jahirfiquitiva)
 [![Google+](https://img.shields.io/badge/Follow-Google%2B-ea4335.svg)](https://plus.google.com/+JahirFiquitivaR)
-[![Donate](https://img.shields.io/badge/PayPal-Donate-009cde.svg)](https://www.paypal.me/jahirfiquitiva)
 
 ---
 
