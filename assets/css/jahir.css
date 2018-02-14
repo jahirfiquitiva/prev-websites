@@ -1,0 +1,518 @@
+/*
+ * Copyright (c) 2017. Jahir Fiquitiva. Graphic Design and Android Development Enthusiast. All rights reserved.
+ */
+:root {
+    --ptext: #37474F;
+    --stext: #546E7A;
+    --stextinverted: rgba(255, 255, 255, 0.75);
+    --stwhite: rgba(255, 255, 255, 0.25);
+    --primary: #2196F3;
+    --section: #FAFAFA;
+    --mid-section: #F5F5F5;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    background-color: var(--section);
+    color: var(--stext);
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
+    color: var(--ptext);
+}
+
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    color: var(--ptext);
+}
+
+p {
+    color: var(--ptext);
+}
+
+section {
+    width: 100%;
+    margin: 0;
+    max-width: none;
+}
+
+/*
+section:nth-of-type(2n) {
+    background-color: var(--mid-section);
+}
+*/
+
+section.intro {
+    display: table;
+}
+
+.intro {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/kari-shea-226153-min.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.intro .content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.intro .content img {
+    max-width: 16.0rem;
+    max-height: 16.0rem;
+    margin-top: 8.0rem;
+    margin-bottom: 8.0rem;
+}
+
+.intro .content .button {
+    margin-right: 0.8rem;
+    margin-left: 0.8rem;
+}
+
+.intro .content a.more {
+    padding-top: 10.0rem !important;
+    padding-bottom: 1.0rem !important;
+    cursor: pointer;
+    display: block;
+}
+
+.intro .content p {
+    margin-bottom: 0 !important;
+}
+
+.intro .content .mdi {
+    color: var(--stextinverted)
+}
+
+.title {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+
+.subtitle {
+    color: var(--stext);
+}
+
+.content {
+    text-align: justify;
+}
+
+.primary-text {
+    color: var(--ptext);
+}
+
+.secondary-text {
+    color: var(--stext);
+}
+
+.primary-text-inverted {
+    color: white;
+}
+
+.secondary-text-inverted {
+    color: var(--stextinverted);
+}
+
+button.button-small {
+    height: 2.5rem;
+    letter-spacing: .1rem;
+    line-height: 2.6rem;
+    font-size: 1.2rem;
+    padding: 0 0.8rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    background-color: var(--primary);
+    cursor: auto;
+}
+
+button.button-small:hover,
+button.button-small:focus {
+    background-color: var(--primary);
+    border: 0.1rem solid var(--primary);
+}
+
+.button.inverted,
+button.inverted {
+    color: var(--ptext);
+    background-color: white;
+    border: 0.1rem solid white;
+}
+
+.button.button-outline-inverted:focus, .button.button-outline-inverted:hover,
+button.button-outline-inverted:focus,
+button.button-outline-inverted:hover,
+input[type='button'].button-outline-inverted:focus,
+input[type='button'].button-outline-inverted:hover,
+input[type='reset'].button-outline-inverted:focus,
+input[type='reset'].button-outline-inverted:hover,
+input[type='submit'].button-outline-inverted:focus,
+input[type='submit'].button-outline-inverted:hover {
+    background-color: var(--stwhite);
+    border-color: white;
+    color: white;
+}
+
+.button.button-outline-inverted,
+button.button-outline-inverted,
+input[type='button'].button-outline-inverted,
+input[type='reset'].button-outline-inverted,
+input[type='submit'].button-outline-inverted {
+    background-color: transparent;
+    color: white;
+    border: 0.1rem solid white;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.12);
+}
+
+.card {
+    background-color: white;
+    border-radius: 1.0rem;
+    text-align: center;
+    padding: 1.8rem 2.4rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    -webkit-transition: all 500ms linear;
+    -moz-transition: all 500ms linear;
+    -ms-transition: all 500ms linear;
+    -o-transition: all 500ms linear;
+    transition: all 500ms linear;
+}
+
+.column.portfolio {
+    margin-top: 7.2rem;
+}
+
+.card .title {
+    margin-top: 0.6rem;
+    margin-bottom: 1.4rem;
+}
+
+.card img {
+    margin-top: -7.6rem;
+    max-width: 12.0rem;
+}
+
+.card img.shadow {
+    -webkit-filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.4));
+drop-shadow(0 2 px 3 px rgba(0, 0, 0, 0.4));
+    filter: url(#drop-shadow);
+}
+
+.card .button,
+.card .button:hover,
+.card .button:focus,
+.card input[type='button'],
+.card input[type='button']:hover,
+.card input[type='button']:focus,
+.card input[type='reset'],
+.card input[type='reset']:hover,
+.card input[type='reset']:focus,
+.card input[type='submit'],
+.card input[type='submit']:hover,
+.card input[type='submit']:focus {
+    background-color: var(--primary);
+    border: 0.1rem solid var(--primary);
+}
+
+.copyright {
+    display: block;
+    background-color: #F5F5F5;
+    color: var(--ptext);
+    letter-spacing: 0.05rem;
+    padding-top: 4.8rem;
+    padding-bottom: 1.6rem;
+    min-height: 0;
+    text-align: center;
+}
+
+.copyright a,
+.copyright a:hover,
+.copyright a:focus,
+.copyright a:active {
+    color: var(--ptext);
+}
+
+.copyright .social-icons {
+    margin-top: 0.8rem;
+    margin-bottom: 3.6rem;
+}
+
+.social-icons a {
+    border-radius: 0.4rem;
+    background-color: rgba(0, 0, 0, 0.05);
+    padding-top: 0.6rem;
+    display: inline-block;
+    color: var(--stext);
+    text-decoration: none;
+    margin: 0.4rem;
+    height: 4.8rem;
+    width: 4.8rem;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.social-icons a:hover,
+.social-icons a:focus,
+.social-icons a:active {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.social-icons a:hover {
+    color: white !important;
+}
+
+.social-icons a.facebook:hover {
+    background-color: #3b5998 !important;
+}
+
+.social-icons a.linkedin:hover {
+    background-color: #0077b5 !important;
+}
+
+.social-icons a.play-store:hover {
+    background-color: #00e26b !important;
+    color: rgba(0, 0, 0, 0.54) !important;
+}
+
+.social-icons a.google-plus:hover {
+    background-color: #dc4e41 !important;
+}
+
+.social-icons a.twitter:hover {
+    background-color: #55acee !important;
+}
+
+.social-icons a.instagram:hover {
+    background-color: #833ab4 !important;
+}
+
+.social-icons a.dribbble:hover {
+    background-color: #ea4c89 !important;
+}
+
+.social-icons a.github:hover {
+    background-color: #4078c0 !important;
+}
+
+.social-icons a.youtube:hover {
+    background-color: #cd201f !important;
+}
+
+.social-icons a.snapchat:hover {
+    background-color: #fffc00 !important;
+    -webkit-text-stroke: 1px black;
+}
+
+.card form {
+    text-align: justify;
+    margin-bottom: 0;
+    max-width: 100%;
+}
+
+.card fieldset {
+    text-align: justify;
+    margin-bottom: 0;
+    max-width: 100%;
+    display: block;
+    min-width: 0 !important;
+}
+
+.card.no-bot-pad {
+    padding-bottom: 0.8rem;
+}
+
+.card.not-centered {
+    text-align: left;
+}
+
+#contact .card {
+    margin-top: 0;
+}
+
+.avatar {
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 16.0rem;
+    height: 16.0rem;
+    vertical-align: middle;
+    overflow: hidden;
+    margin-top: 2.4rem;
+}
+
+.avatar.small {
+    display: inline-block;
+    width: 6.4rem;
+    height: 6.4rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    box-shadow: none;
+}
+
+.sup-card {
+    padding: 0.8rem 1.0rem 0.8rem 0.6rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.supporter {
+    display: inline-block;
+    margin-left: 1.6rem;
+    margin-bottom: 0.4rem;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+#supporters .column {
+    overflow: hidden !important;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+}
+
+/** MEDIA QUERIES **/
+
+/* Mobile */
+@media only screen and (max-width: 529px) {
+    section {
+        padding: 0 5%;
+    }
+
+    .real-content {
+        padding: 10%;
+    }
+
+    .intro .content img {
+        max-width: 10.0rem;
+        max-height: 10.0rem;
+        margin-top: 4.0rem;
+        margin-bottom: 4.0rem;
+    }
+
+    .intro .content a.more {
+        padding-top: 8.0rem !important;
+        padding-bottom: 2.0rem !important;
+    }
+
+    .column.portfolio {
+        margin-top: 7.2rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #contact .card {
+        margin-top: 2.4rem;
+    }
+
+    .avatar.small {
+        width: 6.0rem;
+        height: 6.0rem;
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 530px) and (max-width: 949px) {
+    section {
+        padding: 0 3%;
+    }
+
+    .real-content {
+        padding: 7%;
+    }
+
+    .column.portfolio {
+        margin: 8.4rem 0rem 0rem;
+    }
+
+    .avatar.small {
+        width: 6.0rem;
+        height: 6.0rem;
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width: 950px) and (max-width: 1128px) {
+    .row.row-3 .column {
+        max-width: 33.3333333333%
+    }
+}
+
+/* Desktop XL */
+@media only screen and (min-width: 1129px) {
+    .row.row-3 .column {
+        max-width: 33.3333333333%;
+    }
+}
+
+/* ReCaptcha styles */
+@media screen and (max-width: 240px) {
+    .g-recaptcha {
+        transform: scale(0.5) !important;
+        -webkit-transform: scale(0.5) !important;
+    }
+}
+
+@media screen and (min-width: 241px) and (max-width: 320px) {
+    .g-recaptcha {
+        transform: scale(0.65) !important;
+        -webkit-transform: scale(0.65) !important;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+    .g-recaptcha {
+        transform: scale(0.75) !important;
+        -webkit-transform: scale(0.75) !important;
+    }
+}
+
+.g-recaptcha {
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform-origin: left top !important;
+    -webkit-transform-origin: left top !important;
+}
+
+/** Portfolio **/
+.filter-button {
+    height: 2.5rem;
+    letter-spacing: 0;
+    line-height: 2.4rem;
+    font-size: 1.2rem;
+    padding: 0 0.8rem;
+    margin: 0.25rem;
+    background-color: transparent;
+    box-shadow: none;
+    color: var(--primary);
+}
+
+.filter-button:hover,
+.filter-button:focus,
+.filter-button.active {
+    color: white;
+    background-color: var(--primary);
+    border: 0.1rem solid var(--primary);
+}

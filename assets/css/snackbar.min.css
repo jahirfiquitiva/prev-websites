@@ -1,0 +1,4 @@
+/*
+ * Copyright (c) 2017. Jahir Fiquitiva. Graphic Design and Android Development Enthusiast. All rights reserved.
+ */
+.snackbar{visibility:hidden;min-height:4.8rem;min-width:25rem;margin-left:1.2rem;background-color:#323232;color:#fff;text-align:left;border-radius:.3rem;padding:1.2rem;position:fixed;z-index:1;bottom:1.2rem;font-size:1.8rem;box-shadow:0 2px 4px rgba(255,255,255,.3)}.snackbar.show{visibility:visible;-webkit-animation:fadein .5s,fadeout .5s 2.5s;animation:fadein .5s,fadeout .5s 2.5s}@-webkit-keyframes fadein{from{bottom:0;opacity:0}to{bottom:1.2rem;opacity:1}}@keyframes fadein{from{bottom:0;opacity:0}to{bottom:1.2rem;opacity:1}}@-webkit-keyframes fadeout{from{bottom:1.2rem;opacity:1}to{bottom:0;opacity:0}}@keyframes fadeout{from{bottom:1.2rem;opacity:1}to{bottom:0;opacity:0}}
