@@ -3,12 +3,43 @@ jahirfiquitiva.me
 
 I have created this repository to share the previous versions of [my website](https://www.jahirfiquitiva.me/) with you all.
 
-There are 4 versions available:
+There are 3 versions available:
+- v1 (I used a paid template so I can't share it)
 - [v2](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v2)
 - [v3](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v3)
 - [v4](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v4)
 
 Feel free to use any of them but remember to comply with the license :wink:
+
+---
+
+## Frameworks/Libraries/Tools used:
+
+- v2:
+	- [Materialize](materializecss.com)
+	- [Material Design Icons](materialdesignicons.com)
+	- [Roboto fonts](https://fonts.google.com/specimen/Roboto)
+	- [jQuery](https://jquery.com/)
+	- [isotope](https://isotope.metafizzy.co/)
+	- [vibrant](https://jariz.github.io/vibrant.js/)
+	- [reCaptcha](https://www.google.com/recaptcha/intro/android.html)
+	
+- v3:
+	- [milligram](https://milligram.io/)
+	- [milligrid](https://bencoveney.github.io/Milligrid/)
+	- [Material Design Icons](materialdesignicons.com)
+	- [Dosis fonts](https://fonts.google.com/specimen/Dosis)
+	- [reCaptcha](https://www.google.com/recaptcha/intro/android.html)
+	- Designed by [Lumiq Creative](https://plus.google.com/+LumiqCreative)
+	
+- v4:
+	- [spectre](https://picturepan2.github.io/spectre/)
+	- [Material Design Icons](materialdesignicons.com)
+	- [Roboto Mono fonts](https://fonts.google.com/specimen/Roboto+Mono)
+	- [particles js](https://vincentgarreau.com/particles.js/)
+	- [reCaptcha](https://www.google.com/recaptcha/intro/android.html)
+
+---
 
 ## Show some  :blue_heart:
 [![GitHub stars](https://img.shields.io/github/stars/jahirfiquitiva/jahirfiquitiva.me.svg?style=social&label=Star)](https://github.com/jahirfiquitiva/jahirfiquitiva.me)
