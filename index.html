@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <!-- Google Verification -->
+        <link href="https://plus.google.com/+JahirFiquitivaR/" rel="publisher"/>
+        <meta name="google-site-verification"
+              content="lJwL3cKpjX_Eqp6yEY4hsydJazQl85xv29ZUmEg4oEE"/>
+
+        <!-- Favicons -->
+        <meta name="theme-color" content="#2196f3">
+        <meta name="msapplication-TileColor" content="#2196f3">
+        <link rel="shortcut icon"
+              href="https://github.com/jahirfiquitiva/Website-Resources/raw/master/myself/favicon32.png">
+        <link rel="apple-touch-icon"
+              href="https://github.com/jahirfiquitiva/Website-Resources/raw/master/myself/favicon57.png">
+        <link rel="apple-touch-icon" sizes="72x72"
+              href="https://github.com/jahirfiquitiva/Website-Resources/raw/master/myself/favicon72.png">
+        <link rel="apple-touch-icon" sizes="114x114"
+              href="https://github.com/jahirfiquitiva/Website-Resources/raw/master/myself/favicon114.png">
+        <link rel="apple-touch-icon-precomposed"
+              href="https://github.com/jahirfiquitiva/Website-Resources/raw/master/myself/favicon32.png">
+        <link rel="icon"
+              href="https://github.com/jahirfiquitiva/Website-Resources/raw/master/myself/favicon32.png"
+              sizes="32x32">
+        <meta name="msapplication-TileImage"
+              content="https://github.com/jahirfiquitiva/Website-Resources/raw/master/myself/favicon32.png">
+
+        <!-- Responsiveness -->
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+        <title>Jahir Fiquitiva's Portfolio</title>
+        <link href="assets/css/materialize.min.css" rel="stylesheet">
+        <link href="assets/css/materialdesignicons.min.css" rel="stylesheet">
+        <link href="assets/css/jf.css" rel="stylesheet">
+        <link href="assets/css/portfolio.css" rel="stylesheet">
+
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+    </head>
+    <body>
+        <div class="navbar-fixed" id="toolbar">
+            <nav class="in-home" id="tha-nav">
+                <div class="nav-wrapper">
+                    <ul class="left">
+                        <li>
+                            <a href="#" data-activates="slide-out"
+                               class="button-collapse waves-effect waves-light">
+                                <i class="mdi mdi-menu material-icons" id="drawer-icon"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" id="brand" onclick="scrollToItem('home')"
+                               class="brand-logo left waves-effect waves-blue">
+                                Jahir Fiquitiva
+                            </a>
+                        </li>
+                    </ul>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li class="drawer-item active-item" onclick="scrollToItem('home')">
+                            <a class="waves-effect" href="#">HOME</a>
+                        </li>
+                        <li class="drawer-item" onclick="scrollToItem('about')">
+                            <a class="waves-effect" href="#">ABOUT</a>
+                        </li>
+                        <li class="drawer-item" onclick="scrollToItem('skills')">
+                            <a class="waves-effect" href="#">SKILLS</a>
+                        </li>
+                        <li class="drawer-item" onclick="scrollToItem('portfolio')">
+                            <a class="waves-effect" href="#">PORTFOLIO</a>
+                        </li>
+                        <li class="drawer-item" onclick="scrollToItem('services')">
+                            <a class="waves-effect" href="#">SERVICES</a>
+                        </li>
+                        <li class="drawer-item" onclick="scrollToItem('milestones')">
+                            <a class="waves-effect" href="#">MILESTONES</a>
+                        </li>
+                        <li class="drawer-item" onclick="scrollToItem('supporters')">
+                            <a class="waves-effect" href="#">SUPPORTERS</a>
+                        </li>
+                        <li class="drawer-item" onclick="scrollToItem('blog')">
+                            <a class="waves-effect" href="#">BLOG</a>
+                        </li>
+                        <li class="drawer-item" onclick="scrollToItem('contact')">
+                            <a class="waves-effect" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <ul id="slide-out" class="side-nav">
+            <li>
+                <div class="nav-title">
+                    <h5 class="blue-text">Jahir Fiquitiva</h5>
+                    <a onclick="closeDrawer()"
+                       class="waves-effect show-on-large">
+                        <i class="mdi mdi-chevron-left"></i>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="divider"></div>
+            </li>
+            <li class="drawer-item active-item" onclick="scrollToItem('home');">
+                <a class="waves-effect" href="#!">
+                    <i class="mdi mdi-home"></i>
+                    Home
+                </a>
+            </li>
+            <li class="drawer-item" onclick="scrollToItem('about');">
+                <a class="waves-effect" href="#!">
+                    <i class="mdi mdi-account-circle"></i>
+                    About
+                </a>
+            </li>
+            <li class="drawer-item" onclick="scrollToItem('skills');">
+                <a class="waves-effect" href="#!">
+                    <i class="mdi mdi-star"></i>
+                    Skills
+                </a>
+            </li>
+            <li class="drawer-item" onclick="scrollToItem('portfolio');">
+                <a class="waves-effect" href="#!">
+                    <i class="mdi mdi-view-dashboard"></i>
+                    Portfolio
+                </a>
+            </li>
+            <li class="drawer-item" onclick="scrollToItem('services');">
+                <a class="waves-effect" href="#!">
+                    <i class="mdi mdi-briefcase"></i>
+                    Services
+                </a>
+            </li>
+            <li class="drawer-item" onclick="scrollToItem('milestones')">
+                <a class="waves-effect" href="#!">
+                    <i class="mdi mdi-chart-areaspline"></i>
+                    Milestones
+                </a>
+            </li>
+            <li class="drawer-item" onclick="scrollToItem('supporters')">
+                <a class="waves-effect" href="#!">
+                    <i class="mdi mdi-account-multiple"></i>
+                    Supporters
+                </a>
+            </li>
+            <li class="drawer-item" onclick="scrollToItem('blog')">
+                <a class="waves-effect" href="#!">
+                    <i class="mdi mdi-file"></i>
+                    Blog
+                </a>
+            </li>
+            <li class="drawer-item" onclick="scrollToItem('contact')">
+                <a class="waves-effect" href="#!">
+                    <i class="mdi mdi-contact-mail"></i>
+                    Contact
+                </a>
+            </li>
+        </ul>
+        <!-- Navigation Drawer End -->
+
+        <main>
+            <!-- Home Section Start -->
+            <section id="home" class="typewriter-section">
+                <div class="typewriter-container">
+                    <div class="welcome-container">
+                        <div class="welcome-content">
+                            <div class="welcome-real-content">
+                                <div class="profile-pic-container">
+                                    <img src="assets/images/me-square.png"
+                                         class="responsive-img circle img-elevated"
+                                         style="background-color: rgb(4, 90, 130)">
+                                </div>
+                                <br>
+                                <h3 class="welcome-title">
+                                    Hello, I am Jahir Fiquitiva.
+                                    <!--
+                                    <a href="#" class="typewrite" data-period="2000"
+                                       data-type='[ "Hello, I am Jahir Fiquitiva.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'>
+                                        <span class="wrap"></span>
+                                    </a> -->
+                                </h3></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Home Section End -->
+
+            <div class="real-main-content">
+                <div class="card-panel over-header">
+                    <!-- About Section Start -->
+                    <div class="col s12 section-container" id="about">
+                        <div class="row">
+                            <div class="col s12 m12 l12">
+                                <br>
+                                <h4 class="center section-title">About</h4>
+                                <p class="primary-text center">
+                                    20 years old, born and grew up in Duitama,
+                                    <a href="https://www.youtube.com/watch?v=rTsPaAIJdnw"
+                                       target="_blank">Colombia</a>.
+                                    Freelance Graphic Design enthusiast and Android developer.
+                                </p>
+                                <br>
+                                <br>
+                                <p class="secondary-text">
+                                    I was born on January 28<sup>th</sup>, 1997.
+                                </p>
+                                <p class="secondary-text">
+                                    Since I was a child I have been interesed in technology,
+                                    software and robotics. <br> When I finished High School, I
+                                    started learning about robotics, creating, designing and
+                                    programming a couple of robots. <br> Then I got interested in
+                                    learning to develop Android apps. And I decided to start with
+                                    simple things, like themes and customization apps, which you
+                                    can
+                                    <a href="https://play.google.com/store/apps/developer?id=MinDesigns">
+                                        find and download here.</a>
+                                </p>
+                                <p class="secondary-text">
+                                    While I was working with robots, I got even more interested
+                                    into programming, and during the last two years I have been
+                                    learning lots of things that have allowed me to start
+                                    building and developing
+                                    <a href="#" onclick="scrollToItem('portfolio')">my own
+                                                                                    apps</a>.
+                                    Although there's a long way to go yet. Because I want to
+                                    become a Software Engineer, and that's what I plan for my
+                                    future.
+                                </p>
+                                <p class="secondary-text">
+                                    I am currently studying Systems and Computing Engineering in a
+                                    University in Colombia, and I am putting all my efforts for
+                                    everything to go well and for me to be able to make my dreams
+                                    come true.
+                                </p>
+                                <p class="secondary-text">
+                                    If you like any of the things I do, please consider
+                                    <a href="support">supporting my work</a>.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br>
+            </div>
+            <!-- About Section End -->
+            <div class="divider"></div>
+            <!-- Skills Sections Start -->
+            <div class="darker-content">
+                <div class="real-main-content">
+                    <div class="col s12 section-container full-height-section" id="skills">
+                        <br><br><br><br>
+                        <div class="center">
+                            <h4 class="section-title">Skills</h4>
+                            <h6 class="section-subtitle secondary-text"><i>
+                                Learning is a never ending process
+                            </i></h6>
+                            <div class="center-divider small-divider"></div>
+                        </div>
+                        <br><br>
+                        <div class="row">
+                            <div class="col s12 m6 l6">
+                                <h6>Java: 70%</h6>
+                                <div class="progress">
+                                    <div class="determinate" style="width: 70%"></div>
+                                </div>
+                                <h6>Android: 60%</h6>
+                                <div class="progress">
+                                    <div class="determinate" style="width: 60%"></div>
+                                </div>
+                                <h6>Kotlin: 40%</h6>
+                                <div class="progress">
+                                    <div class="determinate" style="width: 40%"></div>
+                                </div>
+                                <h6>Adobe Illustrator: 50%</h6>
+                                <div class="progress">
+                                    <div class="determinate" style="width: 50%"></div>
+                                </div>
+                            </div>
+                            <div class="col s12 m6 l6">
+                                <h6>HTML: 60%</h6>
+                                <div class="progress">
+                                    <div class="determinate" style="width: 60%"></div>
+                                </div>
+                                <h6>CSS: 40%</h6>
+                                <div class="progress">
+                                    <div class="determinate" style="width: 40%"></div>
+                                </div>
+                                <h6>JavaScript: 50%</h6>
+                                <div class="progress">
+                                    <div class="determinate" style="width: 50%"></div>
+                                </div>
+                                <h6>PHP: 15%</h6>
+                                <div class="progress">
+                                    <div class="determinate" style="width: 15%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Skills Section End -->
+            <!-- Portfolio Section Start -->
+            <div class="real-main-content">
+                <div class="divider"></div>
+                <div id="portfolio" class="col s12">
+                    <br><br>
+                    <div class="row">
+                        <div class="portfolio">
+                            <div class="center">
+                                <h4 class="section-title">Portfolio</h4>
+                                <h6 class="section-subtitle secondary-text"><i>
+                                    These are the projects I am most proud of
+                                </i></h6>
+                                <div class="center-divider small-divider"></div>
+                            </div>
+                        </div>
+
+                        <div align="center" class="filters-button-group button-group">
+                            <button id="portfolio-all-button"
+                                    class="btn-flat waves-effect filter-button active"
+                                    data-filter="all">
+                                All
+                            </button>
+                            <button class="btn-flat waves-effect filter-button"
+                                    data-filter="app">
+                                Android Apps
+                            </button>
+                            <button class="btn-flat waves-effect filter-button"
+                                    data-filter="design">
+                                Design
+                            </button>
+                            <button class="btn-flat waves-effect filter-button"
+                                    data-filter="illustration">
+                                Illustrations
+                            </button>
+                            <button class="btn-flat waves-effect filter-button"
+                                    data-filter="iconography">
+                                Iconography
+                            </button>
+                        </div>
+                        <br><br>
+                        <div class="row grid">
+                            <div class="portfolio-item of-same-height col l3 m4 s6 filter app design">
+                                <div class="card hoverable" style="cursor: pointer"
+                                     onclick="window.open('https://github.com/jahirfiquitiva/IconShowcase-Dashboard/')">
+                                    <div class="card-image portfolio-image-container">
+                                        <img src="assets/images/portfolio/apps/iconshowcase.png"
+                                             class="portfolio-image"/>
+                                    </div>
+                                    <div class="card-content center">
+                                        <p class="truncate">IconShowcase</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="portfolio-item of-same-height col l3 m4 s6 filter app design">
+                                <div class="card hoverable" style="cursor: pointer"
+                                     onclick="window.open('https://play.google.com/store/apps/details?id=jahirfiquitiva.themes.meliornui')">
+                                    <div class="card-image portfolio-image-container">
+                                        <img src="assets/images/portfolio/apps/melior-nui.png"
+                                             class="portfolio-image"/>
+                                    </div>
+                                    <div class="card-content center">
+                                        <p class="truncate">Melior NUI</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="portfolio-item of-same-height col l3 m4 s6 filter app design">
+                                <div class="card hoverable" style="cursor: pointer"
+                                     onclick="window.open('https://github.com/jahirfiquitiva/Frames-Sample/')">
+                                    <div class="card-image portfolio-image-container">
+                                        <img src="assets/images/portfolio/apps/frames.png"
+                                             class="portfolio-image"/>
+                                    </div>
+                                    <div class="card-content center">
+                                        <p class="truncate">Frames</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="portfolio-item of-same-height col l3 m4 s6 filter design illustration">
+                                <div class="card hoverable" style="cursor: pointer"
+                                     onclick="scrollToItem('services')">
+                                    <div class="card-image portfolio-image-container">
+                                        <img src="assets/images/portfolio/vectorportraits/many.png"
+                                             class="portfolio-image"/>
+                                    </div>
+                                    <div class="card-content center">
+                                        <p class="truncate">Vector Portraits</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="portfolio-item of-same-height col l3 m4 s6 filter app">
+                                <div class="card hoverable" style="cursor: pointer"
+                                     onclick="window.open('https://play.google.com/store/apps/details?id=jahirfiquitiva.apps.queep')">
+                                    <div class="card-image portfolio-image-container">
+                                        <img src="assets/images/portfolio/apps/tap-keep.png"
+                                             class="portfolio-image"/>
+                                    </div>
+                                    <div class="card-content center">
+                                        <p class="truncate">Tap for Keep</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="portfolio-item of-same-height col l3 m4 s6 filter app">
+                                <div class="card hoverable" style="cursor: pointer"
+                                     onclick="window.open('https://play.google.com/store/apps/details?id=jahirfiquitiva.apps.tap')">
+                                    <div class="card-image portfolio-image-container">
+                                        <img src="assets/images/portfolio/apps/tap-todoist.png"
+                                             class="portfolio-image"/>
+                                    </div>
+                                    <div class="card-content center">
+                                        <p class="truncate">Tap for Todoist</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="portfolio-item of-same-height col l3 m4 s6 filter design iconography">
+                                <div class="card hoverable">
+                                    <div class="card-image portfolio-image-container">
+                                        <img src="assets/images/portfolio/iconography/billboard_product_icon.png"
+                                             class="portfolio-image"/>
+                                    </div>
+                                    <div class="card-content center">
+                                        <p class="truncate">Billboard</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="portfolio-item of-same-height col l3 m4 s6 filter design iconography">
+                                <div class="card hoverable">
+                                    <div class="card-image portfolio-image-container">
+                                        <img src="assets/images/portfolio/iconography/airtune_radio_product_icon.png"
+                                             class="portfolio-image"/>
+                                    </div>
+                                    <div class="card-content center">
+                                        <p class="truncate">AirTune Radio</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="portfolio-item of-same-height col l3 m4 s6 filter design iconography">
+                                <div class="card hoverable" style="cursor: pointer"
+                                     onclick="window.open('https://play.google.com/store/apps/details?id=com.heinrichreimersoftware.androidissuereporter.example')">
+                                    <div class="card-image portfolio-image-container">
+                                        <img src="assets/images/portfolio/iconography/androidissuereporter_product_icon.png"
+                                             class="portfolio-image"/>
+                                    </div>
+                                    <div class="card-content center">
+                                        <p class="truncate">Android Issue Reporter</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="portfolio-item of-same-height col l3 m4 s6 filter design iconography">
+                                <div class="card hoverable" style="cursor: pointer"
+                                     onclick="window.open('https://play.google.com/store/apps/details?id=com.NxIndustries.Sapphire')">
+                                    <div class="card-image portfolio-image-container">
+                                        <img src="assets/images/portfolio/iconography/sapphirelauncher_product_icon.png"
+                                             class="portfolio-image"/>
+                                    </div>
+                                    <div class="card-content center">
+                                        <p class="truncate">Sapphire Launcher</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="portfolio-item of-same-height col l3 m4 s6 filter design iconography">
+                                <div class="card hoverable" style="cursor: pointer"
+                                     onclick="window.open('https://play.google.com/store/apps/details?id=com.heinrichreimersoftware.singleinputform.example')">
+                                    <div class="card-image portfolio-image-container">
+                                        <img src="assets/images/portfolio/iconography/singleform_product_icon.png"
+                                             class="portfolio-image"/>
+                                    </div>
+                                    <div class="card-content center">
+                                        <p class="truncate">Material Single Input Form</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="portfolio-item of-same-height col l3 m4 s6 filter design iconography">
+                                <div class="card hoverable" style="cursor: pointer"
+                                     onclick="window.open('https://play.google.com/store/apps/details?id=com.heinrichreimersoftware.materialdrawerdemo')">
+                                    <div class="card-image portfolio-image-container">
+                                        <img src="assets/images/portfolio/iconography/materialdrawer_product_icon.png"
+                                             class="portfolio-image"/>
+                                    </div>
+                                    <div class="card-content center">
+                                        <p class="truncate">Material Drawer</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="portfolio-item of-same-height col l3 m4 s6 filter app design iconography illustration">
+                                <div class="card hoverable" style="cursor: pointer"
+                                     onclick="scrollToItem('services')">
+                                    <div class="card-image portfolio-image-container">
+                                        <img src="assets/images/work.png"
+                                             class="portfolio-image"/>
+                                    </div>
+                                    <div class="card-content center">
+                                        <p class="truncate">Your project here</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="portfolio-item of-same-height col l3 m4 s6 filter app design iconography illustration">
+                                <div class="card hoverable" style="cursor: pointer"
+                                     onclick="window.open('support')">
+                                    <div class="card-image portfolio-image-container">
+                                        <img src="assets/images/donation.png"
+                                             class="portfolio-image"/>
+                                    </div>
+                                    <div class="card-content center">
+                                        <p class="truncate">Support my works</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br>
+                <div class="divider"></div>
+            </div>
+            <!-- Portfolio Section End -->
+            <!-- Services Section Start -->
+            <div class="darker-content">
+                <div class="real-main-content">
+                    <div class="col s12 section-container" id="services">
+                        <br><br>
+                        <div class="center">
+                            <h4 class="section-title">What I do</h4>
+                            <h6 class="section-subtitle secondary-text"><i>
+                                I offer some services that you might be interested in
+                            </i></h6>
+                            <div class="center-divider small-divider"></div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col s12 m6 l4 of-same-height">
+                                <div class="card">
+                                    <div class="card-content">
+                                    <span class="card-title primary-text">
+                                        material design product iconography
+                                    </span>
+                                        <p class="secondary-text">
+                                            I have the experience to create high-quality material
+                                            design
+                                            product icons for your app, or whatever you want it for.
+                                        </p>
+                                    </div>
+                                    <div class="card-buttons">
+                                        <a class="waves-effect waves-light btn-flat"
+                                           target="_blank"
+                                           href="https://www.fiverr.com/jahirfiquitiva/create-unique-material-design-product-iconography">
+                                            Buy service
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12 m6 l4 of-same-height">
+                                <div class="card">
+                                    <div class="card-content">
+                                    <span class="card-title primary-text">
+                                        Illustrations
+                                    </span>
+                                        <p class="secondary-text">
+                                            Illustrations are a great way to represent situations or
+                                            scenes to share with your friends and/or users, and
+                                            transmit
+                                            the information you want to.
+                                        </p>
+                                    </div>
+                                    <div class="card-buttons">
+                                        <a class="waves-effect waves-light btn-flat"
+                                           target="_blank"
+                                           href="https://www.fiverr.com/jahirfiquitiva/create-an-illustration-for-you">
+                                            Buy service
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12 m6 l4 of-same-height">
+                                <div class="card">
+                                    <div class="card-content">
+                                    <span class="card-title primary-text">
+                                        Translations
+                                    </span>
+                                        <p class="secondary-text">
+                                            I have a good English speaking/writing level, and
+                                            Spanish is
+                                            my native language, so I am confident I can provide
+                                            high-quality translations from English to Spanish.
+                                        </p>
+                                    </div>
+                                    <div class="card-buttons">
+                                        <a class="waves-effect waves-light btn-flat"
+                                           target="_blank"
+                                           href="https://www.fiverr.com/jahirfiquitiva/translate-your-project-to-spanish-8b313263-8c12-4e69-897f-39b870e05c82">
+                                            Buy service
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12 m6 l4 of-same-height">
+                                <div class="card">
+                                    <div class="card-content">
+                                    <span class="card-title primary-text">
+                                        Android app development
+                                    </span>
+                                        <p class="secondary-text">
+                                            I have been developing android apps for over 2 years
+                                            now,
+                                            and I am confident I have the knowledge, experience and
+                                            proficiency to offer quality products to you.
+                                        </p>
+                                    </div>
+                                    <div class="card-buttons">
+                                        <a class="waves-effect waves-light btn-flat"
+                                           onclick="scrollToItem('contact')"
+                                           href="#">
+                                            Contact
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12 m6 l4 of-same-height">
+                                <div class="card">
+                                    <div class="card-content">
+                                    <span class="card-title primary-text">
+                                        UI/UX Consulting
+                                    </span>
+                                        <p class="secondary-text">
+                                            I usually like to test new Android apps and provide
+                                            useful
+                                            feedback to make the apps easier and more attractive to
+                                            use.
+                                            This is a free service. Just contact me.
+                                        </p>
+                                    </div>
+                                    <div class="card-buttons">
+                                        <a class="waves-effect waves-light btn-flat"
+                                           onclick="scrollToItem('contact')">
+                                            Contact
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br><br>
+                </div>
+            </div>
+            <!-- Services Section End -->
+            <div class="divider"></div>
+            <!-- Milestones Section Start -->
+            <div class="col s12" id="milestones">
+                <div class="milestones-overlay section-container full-height-section">
+                    <br><br><br><br>
+                    <div class="center">
+                        <h4 class="section-title white-text milestones-text">
+                            Milestones achieved
+                        </h4>
+                        <!-- TODO: Change the phrase some day
+                        <h6 class="section-subtitle white-text milestones-text"><i>
+                            I've had the chance to make successful projects
+                        </i></h6> -->
+                        <div class="center-divider small-divider white"></div>
+                    </div>
+                    <br><br><br>
+                    <div class="row milestones-row">
+                        <div class="col s12 m6 l3 milestones-col of-same-height">
+                            <div class="center promo promo-example">
+                                <i class="mdi mdi-48px mdi-star white-text  milestones-text"></i>
+                                <h4 class="promo-caption primary-text-inverse milestones-text">
+                                    4.49
+                                </h4>
+                                <h5 class="white-text milestones-text">
+                                    stars average Play Store rating
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col s12 m6 l3 milestones-col of-same-height">
+                            <div class="center promo promo-example">
+                                <i class="mdi mdi-48px mdi-briefcase-download white-text  milestones-text"></i>
+                                <h4 class="promo-caption primary-text-inverse milestones-text">
+                                    143572+
+                                </h4>
+                                <h5 class="white-text milestones-text">
+                                    Play Store downloads
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col s12 m6 l3 milestones-col of-same-height">
+                            <div class="center promo promo-example">
+                                <i class="mdi mdi-48px mdi-code-braces white-text  milestones-text"></i>
+                                <h4 class="promo-caption primary-text-inverse milestones-text">
+                                    12+
+                                </h4>
+                                <h5 class="white-text milestones-text">
+                                    successful projects
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col s12 m6 l3 milestones-col of-same-height">
+                            <div class="center promo promo-example">
+                                <i class="mdi mdi-48px mdi-source-fork white-text  milestones-text"></i>
+                                <h4 class="promo-caption primary-text-inverse milestones-text">
+                                    30+
+                                </h4>
+                                <h5 class="white-text milestones-text">
+                                    IconShowcase based apps
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br><br>
+                </div>
+            </div>
+            <!-- Milestones Section End -->
+            <div class="divider"></div>
+
+            <div class="real-main-content">
+                <!-- Supporters Section Start -->
+                <div class="col s12 section-container" id="supporters">
+                    <br><br>
+                    <div class="center">
+                        <h4 class="section-title">Supporters</h4>
+                        <h6 class="section-subtitle secondary-text"><i>
+                            The people who have helped me the most in my journey.
+                        </i></h6>
+                        <div class="center-divider small-divider"></div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="of-same-height col s6 m4 l3 xl2">
+                            <div class="card hoverable" style="cursor: pointer"
+                                 onclick="window.open('http://yourshot.nationalgeographic.com/profile/1257264/#b/')">
+                                <div class="card-image supporter-image-container">
+                                    <img src="https://pbs.twimg.com/profile_images/853258651326459904/yogDkP9p.jpg"
+                                         class="supporter-image"/>
+                                </div>
+                                <div class="card-content center">
+                                    <p class="truncate">Sherry Sabatine</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="of-same-height col s6 m4 l3 xl2">
+                            <div class="card hoverable" style="cursor: pointer"
+                                 onclick="window.open('https://plus.google.com/+TravisHall')">
+                                <div class="card-image supporter-image-container">
+                                    <img src="https://lh3.googleusercontent.com/pQ-gea8SHVsU0s85GKO89COWRqtB6YB7xcl7rhS174mAUjGoJO3oCPtavVUAWDZe5arKb5jmZ7uo5js=w1107-h623-rw-no"
+                                         class="supporter-image"/>
+                                </div>
+                                <div class="card-content center">
+                                    <p class="truncate">Travis Hall</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="of-same-height col s6 m4 l3 xl2">
+                            <div class="card hoverable" style="cursor: pointer"
+                                 onclick="window.open('https://plus.google.com/+PatrykGoworowski')">
+                                <div class="card-image supporter-image-container">
+                                    <img src="https://lh3.googleusercontent.com/EpfG2M4si7jn_lk01ure5CGDPF07Aw3YPA88NMvoG1txfGIPc-feN2LdrBby_5W8VPJNCBNGjzCtOYclHck=w1107-h623-rw-no"
+                                         class="supporter-image"/>
+                                </div>
+                                <div class="card-content center">
+                                    <p class="truncate">Patryk Goworowski</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="of-same-height col s6 m4 l3 xl2">
+                            <div class="card hoverable" style="cursor: pointer"
+                                 onclick="window.open('https://plus.google.com/u/0/103778683129341707428')">
+                                <div class="card-image supporter-image-container">
+                                    <img src="https://lh3.googleusercontent.com/rW9Tab49OhRbf8nDKW2MnC8kACQ1b3ry_9vhdATdjvOUROQ2JmoS8dqmLZ0t4hjRIdWQbLaTbaISNJY=w1107-h623-rw-no"
+                                         class="supporter-image"/>
+                                </div>
+                                <div class="card-content center">
+                                    <p class="truncate">David Pfaff</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="of-same-height col s6 m4 l3 xl2">
+                            <div class="card hoverable" style="cursor: pointer"
+                                 onclick="window.open('https://plus.google.com/u/0/+TomVer9')">
+                                <div class="card-image supporter-image-container">
+                                    <img src="https://lh3.googleusercontent.com/XoiTuipQQ_Nv_Fi076F2HLuR5I34MV28bazjuv-Eg968PN_ZXfGImV7cmBVCY6tlurXGptKXyiNBVg=w1107-h623-rw-no"
+                                         class="supporter-image"/>
+                                </div>
+                                <div class="card-content center">
+                                    <p class="truncate">Tom Ver</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="of-same-height col s6 m4 l3 xl2">
+                            <div class="card hoverable" style="cursor: pointer"
+                                 onclick="window.open('https://plus.google.com/u/0/+DarrylDillon')">
+                                <div class="card-image supporter-image-container">
+                                    <img src="https://lh3.googleusercontent.com/mgKqTpWWsH_kmq_A6VEs2pEffhbqAqucxxYZI66hfmcfV8JwPNiRXp4wFvFJk504GmNrKPTzo9eemNlfKLc=w1107-h623-rw-no"
+                                         class="supporter-image"/>
+                                </div>
+                                <div class="card-content center">
+                                    <p class="truncate">Darryl Dillon</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="of-same-height col s6 m4 l3 xl2">
+                            <div class="card hoverable" style="cursor: pointer"
+                                 onclick="window.open('https://plus.google.com/+EduardoPratti')">
+                                <div class="card-image supporter-image-container">
+                                    <img src="https://lh3.googleusercontent.com/JBUU8dTBxuqSp3mwG87DmNWzYW1zsOlUXiJRRXgCdbajedZx8R8_TjgOdM6-3imZGt5JXL1dBdH6wL0=w1107-h623-rw-no"
+                                         class="supporter-image"/>
+                                </div>
+                                <div class="card-content center">
+                                    <p class="truncate">Eduardo Pratti</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="of-same-height col s6 m4 l3 xl2">
+                            <div class="card hoverable" style="cursor: pointer"
+                                 onclick="window.open('support')">
+                                <div class="card-image supporter-image-container">
+                                    <img src="https://ssl.gstatic.com/images/branding/product/1x/avatar_circle_blue_512dp.png"
+                                         class="supporter-image"/>
+                                </div>
+                                <div class="card-content center">
+                                    <p class="truncate">Your name</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br>
+                <div class="divider"></div>
+            </div>
+            <!-- Supporters Section End -->
+
+            <!-- Blog Section Start -->
+            <div class="darker-content">
+                <div class="real-main-content">
+                    <div class="col s12 section-container" id="blog">
+                        <br><br>
+                        <div class="center">
+                            <h4 class="section-title">Blog posts</h4>
+                            <h6 class="section-subtitle secondary-text"><i>
+                                ... and other important events!
+                            </i></h6>
+                            <div class="center-divider small-divider"></div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col s12 m6 l4 of-same-height">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="assets/images/portfolio/apps/frames.png">
+                                    </div>
+                                    <div class="card-content">
+                                    <span class="card-title primary-text">
+                                        Open-Sourced Frames app
+                                    </span>
+                                        <!--
+                                        <p class="secondary-text">
+                                            Short description
+                                        </p> -->
+                                    </div>
+                                    <div class="card-buttons">
+                                        <a class="waves-effect waves-light btn-flat"
+                                           href="https://github.com/jahirfiquitiva/Frames-Sample">
+                                            More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12 m6 l4 of-same-height">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="https://d13yacurqjgara.cloudfront.net/users/1482648/screenshots/3187813/jf_sdribbbledebut_1x.png">
+                                    </div>
+                                    <div class="card-content">
+                                    <span class="card-title primary-text">
+                                        First dribbble shot
+                                    </span>
+                                        <!--
+                                        <p class="secondary-text">
+                                            Short description
+                                        </p> -->
+                                    </div>
+                                    <div class="card-buttons">
+                                        <a class="waves-effect waves-light btn-flat"
+                                           href="https://dribbble.com/shots/3187813-Hello-dribbble">
+                                            More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12 m6 l4 of-same-height">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="assets/images/blog/materialdesignicons-by-kevin-aguilar.png">
+                                    </div>
+                                    <div class="card-content">
+                                    <span class="card-title primary-text">
+                                        What Google missed in their guidelines for material
+                                        design iconography
+                                    </span>
+                                        <!--
+                                        <p class="secondary-text">
+                                            Short description
+                                        </p> -->
+                                    </div>
+                                    <div class="card-buttons">
+                                        <a class="waves-effect waves-light btn-flat"
+                                           href="https://medium.com/@jahirfiquitiva/what-google-missed-in-their-guidelines-for-material-design-iconography-daf9f88000ec">
+                                            More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br><br>
+                    <div class="divider"></div>
+                </div>
+            </div>
+            <!-- Blog Section End -->
+            <div class="real-main-content">
+                <!-- Contact Section Start -->
+                <div class="col s12 section-container" id="contact">
+                    <br>
+                    <div class="center">
+                        <h4 class="section-title">Contact me</h4>
+                        <h6 class="section-subtitle secondary-text"><i>
+                            If you have any question about me, my works, or something else, send me
+                            an email.
+                            I'll get in touch with you as soon as possible.
+                        </i></h6>
+                        <div class="center-divider small-divider"></div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col l1 hide-on-med-and-down"></div>
+                        <div class="col s12 m12 l10">
+                            <div class="card-panel">
+                                <div class="row">
+                                    <form class="col s12" action="assets/contact/submit.php"
+                                          id="contact-form" method="post">
+                                        <div class="row">
+                                            <div class="input-field col s12 m6 l6">
+                                                <i class="mdi mdi-account-circle prefix"></i>
+                                                <input id="name" name="name" type="text"
+                                                       class="validate"
+                                                       required="" aria-required="true">
+                                                <label for="name">Full Name</label>
+                                            </div>
+                                            <div class="input-field col s12 m6 l6">
+                                                <i class="mdi mdi-mail-ru prefix"></i>
+                                                <input id="email" name="email" type="email"
+                                                       class="validate" required=""
+                                                       aria-required="true"
+                                                       data-error="Incorrect email">
+                                                <label for="email">Email</label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="input-field col s12">
+                                                <i class="mdi mdi-textbox prefix"></i>
+                                                <input id="subject" name="subject" type="text"
+                                                       class="validate" required=""
+                                                       aria-required="true">
+                                                <label for="subject">Subject</label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="input-field col s12">
+                                        <textarea id="message" name="message" required=""
+                                                  aria-required="true"
+                                                  class="materialize-textarea validate"></textarea>
+                                                <label for="message">Message</label>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <div class="row">
+                                            <div class="col s12 m6 l6">
+                                                <div id="captcha" class="g-recaptcha"
+                                                     data-sitekey="6Lc-aCkTAAAAAOoMbUV54l-MyK4wWuqOLpMnS4pe">
+                                                </div>
+                                            </div>
+                                            <div class="col s12 m6 l6">
+                                                <br>
+                                                <button class="btn blue waves-effect waves-light right"
+                                                        type="submit" id="submit" name="action">
+                                                    Send
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l1 hide-on-med-and-down"></div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="divider"></div>
+                <!-- Contact Section End -->
+            </div>
+        </main>
+
+        <footer class="footer darker-content">
+            <br><br><br>
+            <div class="center">
+                <ul class="social-icons">
+                    <li>
+                        <div class=item>
+                            <a href=https://www.linkedin.com/in/jahir-fiquitiva-co
+                               class="fa linkedin"
+                               target=_blank title=LinkedIn>
+                                <i class="mdi mdi-linkedin"></i>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class=item>
+                            <a href="https://play.google.com/store/apps/dev?id=7438639276314720952"
+                               class="fa play-store" target=_blank title="Play Store">
+                                <i class="mdi mdi-google-play"></i>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class=item>
+                            <a href=https://google.com/+JahirFiquitivaR class="fa google-plus"
+                               target=_blank title=Google+>
+                                <i class="mdi mdi-google-plus"></i>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class=item>
+                            <a href=https://github.com/jahirfiquitiva class="fa github"
+                               target=_blank
+                               title=GitHub>
+                                <i class="mdi mdi-github-circle"></i>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class=item>
+                            <a href=https://dribbble.com/jahirfiquitiva class="fa dribbble"
+                               target=_blank title=Dribbble>
+                                <i class="mdi mdi-dribbble"></i>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class=item>
+                            <a href=https://twitter.com/jahirfiquitiva class="fa twitter"
+                               target=_blank title=Twitter>
+                                <i class="mdi mdi-twitter"></i>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class=item>
+                            <a href=http://instagram.com/_u/jahirfiquitiva class="fa instagram"
+                               target=_blank title=Instagram>
+                                <i class="mdi mdi-instagram"></i>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class=item>
+                            <a href=https://www.youtube.com/c/JahirFiquitivaJDev class="fa youtube"
+                               target=_blank title=YouTube>
+                                <i class="mdi mdi-youtube-play"></i>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class=item>
+                            <a href=https://www.snapchat.com/add/jahirfiquitiva class="fa snapchat"
+                               target=_blank title=Snapchat>
+                                <i class="mdi mdi-snapchat"></i>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+                <br><br>
+                <h6 class="secondary-text">Copyright © 2017 <a href="#">Jahir Fiquitiva</a>.</h6>
+                <p class="secondary-text">All rights reserved</p>
+                <br>
+            </div>
+            <br>
+        </footer>
+
+        <div class="fixed-action-btn click-to-toggle fab-to-top" id="fab" style="display: none">
+            <a class="waves-effect waves-circle waves-light btn-floating btn-large light-blue accent-3 hoverable"
+               onclick="scrollToItem('home')">
+                <i class="mdi mdi-36px mdi-chevron-up white-text"></i>
+            </a>
+        </div>
+
+        <!-- MAIN SCRIPTS -->
+        <script src="assets/js/jquery-3.2.1.min.js" type="text/javascript"></script>
+        <script src="assets/js/materialize.js" type="text/javascript"></script>
+
+        <!-- UI SCRIPTS -->
+        <script src="assets/js/jquery.matchHeight.js" type="text/javascript"></script>
+        <!--
+        <script src="assets/js/vibrant.min.js"></script>
+        <script src="assets/js/ui.js"></script>
+        <script src="assets/js/typewriter.js"></script
+        -->
+
+        <!-- SCROLL SCRIPTS -->
+        <script src="assets/js/core.js" type="text/javascript"></script>
+        <script src="assets/js/scroll.js" type="text/javascript"></script>
+
+        <!-- PORTFOLIO SCRIPTS -->
+        <script src="assets/js/isotope.pkgd.min.js" type="text/javascript"></script>
+        <script src="assets/js/portfolio.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $('#message').trigger('autoresize');
+            $('.button-collapse').sideNav({
+                                              menuWidth: 280, // Default is 300
+                                              edge: 'left', // Choose the horizontal origin
+                                              closeOnClick: true,
+                                              // Closes side-nav on <a> clicks, useful for Angular/Meteor
+                                              draggable: true // Choose whether you can drag to open on touch screens
+                                          }
+            );
+            $(window).on('load', function () {
+                if (hasScrolledIntoHome()) {
+                    $("#tha-nav").addClass("in-home");
+                    $(".fab-to-top").fadeOut()
+                } else {
+                    $("#tha-nav").removeClass("in-home");
+                    $(".fab-to-top").fadeIn(500)
+                }
+            });
+        </script>
+    </body>
+</html>

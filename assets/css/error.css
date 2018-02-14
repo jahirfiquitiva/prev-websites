@@ -1,0 +1,80 @@
+html, body, main {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+div {
+    display: block;
+}
+
+.full-height {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.big-picture {
+    background: #2196f3 url('../images/hero.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.big-picture-overlay {
+    background-color: rgba(0, 0, 0, 0.35);
+    height: 100%;
+    width: 100%;
+}
+
+.error-container {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+.error-content {
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: rgba(255,255,255,0.75);
+}
+
+button {
+    background-color: #2196f3;
+    color: white;
+    text-transform: uppercase;
+    padding: 12px;
+    margin: 8px;
+    border: none;
+    outline: none;
+    font-weight:bold;
+    font-size: 1rem;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}

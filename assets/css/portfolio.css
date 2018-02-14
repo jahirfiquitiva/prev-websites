@@ -1,0 +1,116 @@
+.section-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 16px !important;
+    margin-bottom: 24px !important;
+    color: #2196f3;
+}
+
+.section-subtitle {
+    margin-bottom: 24px !important;
+}
+
+.center-divider {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.small-divider {
+    display: block;
+    width: 200px;
+    background-color: #2196f3;
+    height: 1px;
+    margin-top: 32px !important;
+    margin-bottom: 24px !important;
+}
+
+.filter-button {
+    height: 28px;
+    line-height: 24px;
+    margin: 4px;
+    padding: 12px !important;
+    padding-top: 2px !important;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: transparent !important;
+    box-shadow: none;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.filter-button:hover {
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.filter-button.active {
+    color: #2196f3 !important;
+}
+
+.portfolio-image-container {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.portfolio-image {
+    display: block;
+    margin: auto !important;
+    padding: 16px !important;
+    max-width: 70%;
+    width: 70%;
+    max-height: 70%;
+    height: 70%;
+}
+
+@media only screen and (max-width: 480px) {
+    .portfolio-item {
+        padding: 0 !important;
+    }
+
+    .portfolio-image {
+        max-width: 85%;
+        width: 85%;
+        max-height: 85%;
+        height: 85%;
+    }
+
+    .of-same-height {
+        padding: 0 !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .portfolio-item {
+        padding: 4px !important;
+    }
+
+    .of-same-height {
+        padding: 4px !important;
+    }
+}
+
+.supporter-image-container {
+    margin: 0 !important;
+    padding: 16px 8px 8px !important;
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.supporter-image {
+    display: block;
+    margin: auto !important;
+    max-width: 80%;
+    width: 80%;
+    max-height: 80%;
+    height: 80%;
+    left: 40%;
+    border-radius: 50% !important;
+}
+
+.portfolio-item {
+    margin: 0 !important;
+}
