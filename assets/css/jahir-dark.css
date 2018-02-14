@@ -1,0 +1,104 @@
+body {
+    background-color: #303030 !important;
+    color: #fff !important;
+    font-family: 'Roboto Mono', monospace !important;
+}
+
+.avatar {
+    background-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+.primary-bg {
+    background-color: #00B0FF !important;
+}
+
+.btn.btn-primary {
+    background-color: #00B0FF !important;
+    outline: none !important;
+    border: none !important;
+}
+
+.primary {
+    color: #00B0FF !important;
+}
+
+a {
+    color: #00B0FF !important;
+}
+
+.navbar {
+    background-color: #212121 !important;
+}
+
+.filter .filter-tag#tag-0:checked ~ .filter-nav .chip[for=tag-0],
+.filter .filter-tag#tag-1:checked ~ .filter-nav .chip[for=tag-1],
+.filter .filter-tag#tag-2:checked ~ .filter-nav .chip[for=tag-2],
+.filter .filter-tag#tag-3:checked ~ .filter-nav .chip[for=tag-3],
+.filter .filter-tag#tag-4:checked ~ .filter-nav .chip[for=tag-4],
+.filter .filter-tag#tag-5:checked ~ .filter-nav .chip[for=tag-5],
+.filter .filter-tag#tag-6:checked ~ .filter-nav .chip[for=tag-6],
+.filter .filter-tag#tag-7:checked ~ .filter-nav .chip[for=tag-7],
+.filter .filter-tag#tag-8:checked ~ .filter-nav .chip[for=tag-8] {
+    background-color: #00B0FF !important;
+    color: #fff !important;
+}
+
+#supporters a {
+    color: #50596c !important;
+}
+
+#supporters .card {
+    margin: 0.4rem !important;
+    background-color: rgba(255, 255, 255, 0) !important;
+    -webkit-box-shadow: 0 2px 3px rgba(10, 10, 10, 0) !important;
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0) !important;
+}
+
+.divider {
+    border-top: .05rem solid rgba(255, 255, 255, 0.12) !important;
+}
+
+.navbar .primary {
+    color: #fff !important;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.table.table-striped tbody tr:nth-of-type(odd) {
+    background: #424242;
+}
+
+.filter .filter-tag ~ .filter-nav .chip {
+    cursor: pointer !important;
+    padding: .5rem !important;
+    margin: .3rem !important;
+    background-color: #424242 !important;
+    color: #fafafa !important;
+}
+
+.form-input {
+    background-color: #424242 !important;
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.card {
+    background-color: #424242 !important;
+    border-radius: .15rem !important;
+    -webkit-box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
+}
+
+#supporters a {
+    color: rgba(255, 255, 255, 0.84) !important;
+}
+
+input,
+textarea,
+input:focus,
+textarea:focus {
+    outline: none !important;
+    border: none !important;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.12) !important;
+}

@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+        <!--[if IE]>
+        <meta http-equiv="cleartype" content="on"/><![endif]-->
+
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+        <title>Jahir Fiquitiva</title>
+        <meta name="description"
+              content="A website to show information about me, my skills and my portfolio">
+        <meta name="author" content="Jahir Fiquitiva">
+        <meta name="keywords"
+              content="portfolio, skills, developer, development, android, material, material design, kotlin, java, javascript, css, html, python, c, c++, design, iconography, illustration">
+
+        <meta property="og:title" content="Jahir Fiquitiva"/>
+        <meta property="og:site_name" content="Jahir Fiquitiva"/>
+
+        <!-- Schema.org markup for Google+ -->
+        <meta itemprop="name" content="Jahir Fiquitiva">
+        <meta itemprop="description"
+              content="A website to show information about me, my skills and my portfolio">
+        <meta itemprop="image"
+              content="https://github.com/jahirfiquitiva/Website-Resources/raw/master/myself/logo-full-sm.png">
+
+        <!-- Open Graph data -->
+        <meta property="og:title" content="Jahir Fiquitiva"/>
+        <meta property="og:type" content="portfolio"/>
+        <meta property="og:url" content="https://www.jahirfiquitiva.me/"/>
+        <meta property="og:image"
+              content="https://github.com/jahirfiquitiva/Website-Resources/raw/master/myself/logo-full-sm.png"/>
+        <meta property="og:description"
+              content="A website to show information about me, my skills and my portfolio"/>
+        <meta property="og:site_name" content="Jahir Fiquitiva"/>
+        <meta property="og:locale" content="en_US"/>
+        <link rel="canonical" href="https://www.jahirfiquitiva.me/"/>
+
+        <!-- Twitter -->
+        <!-- Twitter Card data -->
+        <meta name="twitter:card"
+              content="A website to show information about me, my skills and my portfolio">
+        <meta name="twitter:site" content="@jahirfiquitiva">
+        <meta name="twitter:title" content="Jahir Fiquitiva">
+        <meta name="twitter:description"
+              content="A website to show information about me, my skills and my portfolio">
+        <meta name="twitter:creator" content="@jahirfiquitiva">
+        <!-- Twitter summary card with large image must be at least 280x150px -->
+        <meta name="twitter:image:src"
+              content="https://github.com/jahirfiquitiva/Website-Resources/raw/master/myself/logo-full-sm.png">
+
+        <!-- Google Verification -->
+        <link href="https://plus.google.com/+JahirFiquitivaR/" rel="publisher"/>
+        <meta name="google-site-verification"
+              content="lJwL3cKpjX_Eqp6yEY4hsydJazQl85xv29ZUmEg4oEE"/>
+
+        <!-- Theme Colors -->
+        <meta name="theme-color" content="#F5F5F5">
+        <meta name="msapplication-TileColor" content="#F5F5F5">
+        <meta name="msapplication-navbutton-color" content="#F5F5F5">
+
+        <!-- Favicons -->
+        <link rel="shortcut icon"
+              href="https://github.com/jahirfiquitiva/Website-Resources/raw/master/myself/favicon32.png">
+        <link rel="apple-touch-icon"
+              href="https://github.com/jahirfiquitiva/Website-Resources/raw/master/myself/favicon57.png">
+        <link rel="apple-touch-icon" sizes="72x72"
+              href="https://github.com/jahirfiquitiva/Website-Resources/raw/master/myself/favicon72.png">
+        <link rel="apple-touch-icon" sizes="114x114"
+              href="https://github.com/jahirfiquitiva/Website-Resources/raw/master/myself/favicon114.png">
+        <link rel="apple-touch-icon-precomposed"
+              href="https://github.com/jahirfiquitiva/Website-Resources/raw/master/myself/favicon32.png">
+        <link rel="icon"
+              href="https://github.com/jahirfiquitiva/Website-Resources/raw/master/myself/favicon32.png"
+              sizes="32x32">
+        <meta name="msapplication-TileImage"
+              content="https://github.com/jahirfiquitiva/Website-Resources/raw/master/myself/favicon32.png">
+
+        <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
+
+        <link rel="stylesheet"
+              href="https://cdn.materialdesignicons.com/2.1.19/css/materialdesignicons.min.css">
+
+        <link rel="stylesheet"
+              href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700">
+
+        <link rel="stylesheet" href="assets/css/base.css" media="all">
+        <link rel="stylesheet" href="assets/css/recaptcha.css" media="all">
+        <link rel="stylesheet" href="assets/css/snackbar.css" media="all" id="snack_css">
+        <link rel="stylesheet" href="assets/css/jahir.css" media="all" id="theme_css">
+    </head>
+    <body>
+        <div id="particles-bg"></div>
+
+        <header class="navbar has-shadow" id="header">
+            <section class="navbar-section brand-logo">
+                <img id="logo" src="assets/img/logo-small.svg">
+                <a href="#" class="navbar-brand mr-2 primary">Jahir Fiquitiva</a>
+            </section>
+            <section class="navbar-section">
+                <a target="_blank" href="https://www.linkedin.com/in/jahir-fiquitiva-co"
+                   class="btn btn-link"><i
+                        class="mdi mdi-24px mdi-linkedin primary"></i></a>
+                <a target="_blank" href="https://twitter.com/jahirfiquitiva" class="btn btn-link"><i
+                        class="mdi mdi-24px mdi-twitter primary"></i></a>
+                <a target="_blank" href="https://google.com/+JahirFiquitivaR"
+                   class="btn btn-link"><i
+                        class="mdi mdi-24px mdi-google-plus primary"></i></a>
+                <a target="_blank" href="https://github.com/jahirfiquitiva" class="btn btn-link"><i
+                        class="mdi mdi-24px mdi-github-circle primary"></i></a>
+                <a class="btn btn-link" onclick="toggleTheme()"><i
+                        class="mdi mdi-24px mdi-theme-light-dark primary"></i></a>
+            </section>
+        </header>
+
+        <div class="container grid-lg">
+            <div class="content">
+                <img src="https://raw.githubusercontent.com/jahirfiquitiva/Website-Resources/master/myself/me-square.png"
+                     class="circle avatar avatar-xxl has-shadow centered">
+                <br><br><br>
+                <div id="intro" class="centered">
+                    <h2>Hi, I am Jahir Fiquitiva</h2>
+                    <h5>A passionate and creative Android and Front-End developer</h5>
+                </div>
+                <br>
+                <div id="about" class="centered">
+                    <p>
+                        My name is Jahir Fiquitiva, I was born on January 28<sup>th</sup>, 1997.<br>
+                        I'm a 20-year-old passionate and creative Android and Front-End Web
+                        developer.
+                        Born
+                        and raised in Duitama, <a href="https://www.youtube.com/watch?v=rTsPaAIJdnw"
+                                                  target="_blank">Colombia</a><br>
+                        I code, design, translate and consult.
+                    </p>
+                    <p>
+                        Ever since I was a child, I have been interested in technology,
+                        software and robotics. <br>After I graduated from <a
+                            href="http://www.salesianosbogota.org/index.php/duitama"
+                            target="_blank">Salesian School</a> in 2012, I started creating,
+                        designing
+                        and programming a couple of robots. <br> Then I got interested in
+                        learning to develop Android apps. I started with
+                        simple things, like customization and theme apps, which you
+                        can find and download
+                        <a href="https://play.google.com/store/apps/developer?id=MinDesigns">clicking
+                                                                                             here.</a>
+                    </p>
+                    <p>
+                        While I was working with robots and small Android projects,
+                        I got even more interested in programming, and since late 2014
+                        I have been learning many things that have allowed me to start
+                        building and developing
+                        <a onclick="scrollToItem('portfolio')">my own apps</a>.
+                    </p>
+                    <p>
+                        I am currently studying <b>Systems and Computing Engineering</b>
+                        <em>(an equivalent to Computer Science)</em> at
+                        <b>Pedagogical and Technological University of Colombia</b> and I am the
+                        <b>Lead Android Developer</b> at <a href="https://vez.io/" target="_blank">Vezio,
+                                                                                                   Inc.</a>
+                    </p>
+                    <p>
+                        I consider myself a inquisitive person, always trying to learn new skills or
+                        improve existing ones. I'd also like to be part of your next project!
+                    </p>
+                    <p>
+                        Additionally, if you like any of the things I do, please consider
+                        <a href="support">supporting my work</a>.
+                    </p>
+                </div>
+
+                <br><br><br>
+                <div class="divider"></div>
+                <br><br><br>
+
+                <div id="skills">
+                    <h2>My Skills</h2>
+                    <h5>Learning is a never-ending process</h5>
+                    <br>
+
+                    <div class="columns">
+                        <div class="column col-12">
+                            <table class="table table-striped">
+                                <thead>
+                                <tr>
+                                    <th>Programming Languages</th>
+                                    <th>General</th>
+                                    <th>Languages</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>Kotlin</td>
+                                    <td>Android Development</td>
+                                    <td>Spanish (native)</td>
+                                </tr>
+                                <tr>
+                                    <td>Java</td>
+                                    <td>Git</td>
+                                    <td>English (fluent)</td>
+                                </tr>
+                                <tr>
+                                    <td>Python</td>
+                                    <td>Material Design</td>
+                                    <td>Italian (basic)</td>
+                                </tr>
+                                <tr>
+                                    <td>JavaScript</td>
+                                    <td>Adobe Illustrator</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>HTML5/CSS3</td>
+                                    <td>Product Iconography</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Illustration</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>UI/UX</td>
+                                    <td></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <br><br><br>
+                <div class="divider"></div>
+                <br><br><br>
+
+                <div id="portfolio">
+
+                    <h2>My Portfolio</h2>
+                    <h5>Current and past projects of mine</h5>
+                    <br>
+                    <div class="filter">
+                        <input type="radio" id="tag-0" class="filter-tag" name="filter-radio" hidden
+                               checked>
+                        <input type="radio" id="tag-1" class="filter-tag" name="filter-radio"
+                               hidden>
+                        <input type="radio" id="tag-2" class="filter-tag"
+                               name="filter-radio" hidden>
+                        <input type="radio" id="tag-3" class="filter-tag" name="filter-radio"
+                               hidden>
+
+                        <div class="filter-nav">
+                            <label class="chip no-select" for="tag-0">All</label>
+                            <label class="chip no-select" for="tag-1">Android Apps</label>
+                            <!-- <label class="chip no-select" for="tag-2">Illustrations</label> -->
+                            <label class="chip no-select" for="tag-3">Iconography</label>
+                        </div>
+                        <br>
+                        <div class="filter-body centered">
+                            <div class="columns">
+                                <div class="column col-sm-12 filter-item card"
+                                     data-tag="tag-1">
+                                    <div class="card-image centered">
+                                        <img src="assets/img/portfolio/apps/iconshowcase.png"
+                                             class="img-responsive">
+                                    </div>
+                                    <div class="card-header">
+                                        <div class="card-title h5">IconShowcase</div>
+                                        <div class="card-subtitle">
+                                            <p>A Material Design dashboard for
+                                               creating Android icon packs
+                                               easily.</p>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a target="_blank"
+                                           href="https://github.com/jahirfiquitiva/IconShowcase-Dashboard/">
+                                            <button class="btn btn-primary float-right">View
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="column col-sm-12 filter-item card"
+                                     data-tag="tag-1">
+                                    <div class="card-image centered">
+                                        <img src="assets/img/portfolio/apps/frames.png"
+                                             class="img-responsive">
+                                    </div>
+                                    <div class="card-header">
+                                        <div class="card-title h5">Frames</div>
+                                        <div class="card-subtitle">
+                                            <p>A Material Design dashboard for
+                                               creating Android wallpapers apps
+                                               easily.</p>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a target="_blank"
+                                           href="https://github.com/jahirfiquitiva/Frames/">
+                                            <button class="btn btn-primary float-right">View
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="column col-sm-12 filter-item card"
+                                     data-tag="tag-1">
+                                    <div class="card-image centered">
+                                        <img src="assets/img/portfolio/apps/kuper.png"
+                                             class="img-responsive">
+                                    </div>
+                                    <div class="card-header">
+                                        <div class="card-title h5">Kuper</div>
+                                        <div class="card-subtitle">
+                                            <p>A Material Design dashboard for
+                                               Zooper and Kustom widget packs.</p>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a target="_blank"
+                                           href="https://github.com/jahirfiquitiva/Kuper/">
+                                            <button class="btn btn-primary float-right">View
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="columns">
+                                <div class="column col-sm-12 filter-item card"
+                                     data-tag="tag-1">
+                                    <div class="card-image centered">
+                                        <img src="assets/img/portfolio/libs/fabsmenu.png"
+                                             class="img-responsive">
+                                    </div>
+                                    <div class="card-header">
+                                        <div class="card-title h5">FABsMenu</div>
+                                        <div class="card-subtitle">
+                                            <p>An Android library to create a Floating Action Button
+                                               Menus following Material Design guidelines.</p>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a target="_blank"
+                                           href="https://github.com/jahirfiquitiva/FABsMenu/">
+                                            <button class="btn btn-primary float-right">View
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="column col-sm-12 filter-item card"
+                                     data-tag="tag-1">
+                                    <div class="card-image centered">
+                                        <img src="assets/img/portfolio/apps/tap-keep.png"
+                                             class="img-responsive">
+                                    </div>
+                                    <div class="card-header">
+                                        <div class="card-title h5">Tap for Keep</div>
+                                        <div class="card-subtitle">
+                                            <p>A Floating Action Button for quickly creating notes
+                                               in Google Keep.</p>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a target="_blank"
+                                           href="https://play.google.com/store/apps/details?id=jahirfiquitiva.apps.queep">
+                                            <button class="btn btn-primary float-right">View
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="column col-sm-12 filter-item card"
+                                     data-tag="tag-1">
+                                    <div class="card-image centered">
+                                        <img src="assets/img/portfolio/apps/tap-todoist.png"
+                                             class="img-responsive">
+                                    </div>
+                                    <div class="card-header">
+                                        <div class="card-title h5">Tap for Todoist</div>
+                                        <div class="card-subtitle">
+                                            <p>A Floating Action Button for quickly creating tasks
+                                               in Todoist.</p>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a target="_blank"
+                                           href="https://play.google.com/store/apps/details?id=jahirfiquitiva.apps.tap">
+                                            <button class="btn btn-primary float-right">View
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="columns">
+                                <div class="column col-sm-12 filter-item card"
+                                     data-tag="tag-1">
+                                    <div class="card-image centered">
+                                        <img src="assets/img/portfolio/apps/melior-nui.png"
+                                             class="img-responsive">
+                                    </div>
+                                    <div class="card-header">
+                                        <div class="card-title h5">Melior NUI</div>
+                                        <div class="card-subtitle">
+                                            <p>A Material Design theme for LineageOS Theme
+                                               Engine.</p>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a target="_blank"
+                                           href="https://play.google.com/store/apps/details?id=jahirfiquitiva.themes.meliornui">
+                                            <button class="btn btn-primary float-right">View
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="column col-sm-12 filter-item card"
+                                     data-tag="tag-3">
+                                    <div class="card-image centered">
+                                        <img src="assets/img/portfolio/iconography/androidissuereporter_product_icon.png"
+                                             class="img-responsive">
+                                    </div>
+                                    <div class="card-header">
+                                        <div class="card-title h5">Android Issue Reporter</div>
+                                        <div class="card-subtitle">
+                                            <p>A product icon for the app.</p>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a target="_blank"
+                                           href="https://play.google.com/store/apps/details?id=com.heinrichreimersoftware.androidissuereporter.example">
+                                            <button class="btn btn-primary float-right">View
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="column col-sm-12 filter-item card"
+                                     data-tag="tag-3">
+                                    <div class="card-image centered">
+                                        <img src="assets/img/portfolio/iconography/sapphirelauncher_product_icon.png"
+                                             class="img-responsive">
+                                    </div>
+                                    <div class="card-header">
+                                        <div class="card-title h5">Sapphire Launcher</div>
+                                        <div class="card-subtitle">
+                                            <p>A product icon for the app.</p>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a target="_blank"
+                                           href="https://play.google.com/store/apps/details?id=com.NxIndustries.Sapphire">
+                                            <button class="btn btn-primary float-right">View
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="columns">
+                                <div class="column col-sm-12 filter-item card"
+                                     data-tag="tag-3">
+                                    <div class="card-image centered">
+                                        <img src="assets/img/portfolio/iconography/singleform_product_icon.png"
+                                             class="img-responsive">
+                                    </div>
+                                    <div class="card-header">
+                                        <div class="card-title h5">Material Single Input Form</div>
+                                        <div class="card-subtitle">
+                                            <p>A product icon for the app.</p>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a target="_blank"
+                                           href="https://play.google.com/store/apps/details?id=com.heinrichreimersoftware.singleinputform.example">
+                                            <button class="btn btn-primary float-right">View
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="column col-sm-12 filter-item card"
+                                     data-tag="tag-3">
+                                    <div class="card-image centered">
+                                        <img src="assets/img/portfolio/iconography/materialdrawer_product_icon.png"
+                                             class="img-responsive">
+                                    </div>
+                                    <div class="card-header">
+                                        <div class="card-title h5">Sapphire Launcher</div>
+                                        <div class="card-subtitle">
+                                            <p>A product icon for the app.</p>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a target="_blank"
+                                           href="https://play.google.com/store/apps/details?id=com.heinrichreimersoftware.materialdrawerdemo">
+                                            <button class="btn btn-primary float-right">View
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Filter items -->
+                        </div>
+                    </div>
+                </div>
+
+                <br><br><br>
+                <div class="divider"></div>
+                <br><br><br>
+
+                <div id="supporters">
+
+                    <h2>Supporters</h2>
+                    <h5>The people who have helped me throughout my journey</h5>
+                    <br>
+
+                    <div class="columns">
+                        <a target="_blank" href="http://www.ssabatinephotography.com/">
+                            <div class="column card">
+                                <div class="tile tile-centered">
+                                    <div class="tile-icon">
+                                        <figure class="avatar avatar-lg">
+                                            <img src="https://pbs.twimg.com/profile_images/853258651326459904/yogDkP9p.jpg"
+                                                 alt="...">
+                                        </figure>
+                                    </div>
+                                    <div class="tile-content">
+                                        <div class="tile-title">Sherry Sabatine</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a target="_blank" href="https://plus.google.com/+TravisHall">
+                            <div class="column card">
+                                <div class="tile tile-centered">
+                                    <div class="tile-icon">
+                                        <figure class="avatar avatar-lg">
+                                            <img src="https://lh3.googleusercontent.com/pQ-gea8SHVsU0s85GKO89COWRqtB6YB7xcl7rhS174mAUjGoJO3oCPtavVUAWDZe5arKb5jmZ7uo5js=w1107-h523-rw-no"
+                                                 alt="...">
+                                        </figure>
+                                    </div>
+                                    <div class="tile-content">
+                                        <div class="tile-title">Travis Hall</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a target="_blank" href="https://jacksonhayes.xyz/patryk/index.html">
+                            <div class="column card">
+                                <div class="tile tile-centered">
+                                    <div class="tile-icon">
+                                        <figure class="avatar avatar-lg">
+                                            <img src="https://lh3.googleusercontent.com/EpfG2M4si7jn_lk01ure5CGDPF07Aw3YPA88NMvoG1txfGIPc-feN2LdrBby_5W8VPJNCBNGjzCtOYclHck=w1107-h523-rw-no"
+                                                 alt="...">
+                                        </figure>
+                                    </div>
+                                    <div class="tile-content">
+                                        <div class="tile-title">Patryk Goworowski</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a target="_blank" href="https://plus.google.com/u/0/103778683129341707428">
+                            <div class="column card">
+                                <div class="tile tile-centered">
+                                    <div class="tile-icon">
+                                        <figure class="avatar avatar-lg">
+                                            <img src="https://lh3.googleusercontent.com/rW9Tab49OhRbf8nDKW2MnC8kACQ1b3ry_9vhdATdjvOUROQ2JmoS8dqmLZ0t4hjRIdWQbLaTbaISNJY=w1107-h523-rw-no"
+                                                 alt="...">
+                                        </figure>
+                                    </div>
+                                    <div class="tile-content">
+                                        <div class="tile-title">David Pfaff</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a target="_blank" href="https://plus.google.com/u/0/+TomVer9">
+                            <div class="column card">
+                                <div class="tile tile-centered">
+                                    <div class="tile-icon">
+                                        <figure class="avatar avatar-lg">
+                                            <img src="https://lh3.googleusercontent.com/XoiTuipQQ_Nv_Fi076F2HLuR5I34MV28bazjuv-Eg968PN_ZXfGImV7cmBVCY6tlurXGptKXyiNBVg=w1107-h523-rw-no"
+                                                 alt="...">
+                                        </figure>
+                                    </div>
+                                    <div class="tile-content">
+                                        <div class="tile-title">Tom Ver</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a target="_blank" href="https://plus.google.com/u/0/+DarrylDillon">
+                            <div class="column card">
+                                <div class="tile tile-centered">
+                                    <div class="tile-icon">
+                                        <figure class="avatar avatar-lg">
+                                            <img src="https://lh3.googleusercontent.com/mgKqTpWWsH_kmq_A6VEs2pEffhbqAqucxxYZI66hfmcfV8JwPNiRXp4wFvFJk504GmNrKPTzo9eemNlfKLc=w1107-h523-rw-no"
+                                                 alt="...">
+                                        </figure>
+                                    </div>
+                                    <div class="tile-content">
+                                        <div class="tile-title">Darryl Dillon</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a target="_blank" href="https://plus.google.com/+EduardoPratti">
+                            <div class="column card">
+                                <div class="tile tile-centered">
+                                    <div class="tile-icon">
+                                        <figure class="avatar avatar-lg">
+                                            <img src="https://lh3.googleusercontent.com/JBUU8dTBxuqSp3mwG87DmNWzYW1zsOlUXiJRRXgCdbajedZx8R8_TjgOdM6-3imZGt5JXL1dBdH6wL0=w1107-h523-rw-no"
+                                                 alt="...">
+                                        </figure>
+                                    </div>
+                                    <div class="tile-content">
+                                        <div class="tile-title">Eduardo Pratti</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a target="_blank" href="https://twitter.com/YaBoiBurner">
+                            <div class="column card">
+                                <div class="tile tile-centered">
+                                    <div class="tile-icon">
+                                        <figure class="avatar avatar-lg">
+                                            <img src="https://pbs.twimg.com/profile_images/760851687976435712/4ZnWPiiD_400x400.jpg"
+                                                 alt="...">
+                                        </figure>
+                                    </div>
+                                    <div class="tile-content">
+                                        <div class="tile-title">Jaden Pleasants</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a target="_blank" href="https://plus.google.com/+LumiqCreative">
+                            <div class="column card">
+                                <div class="tile tile-centered">
+                                    <div class="tile-icon">
+                                        <figure class="avatar avatar-lg">
+                                            <img src="https://github.com/lumiqcreative/lumiq-repo/raw/master/logo-f01-thick.png"
+                                                 alt="...">
+                                        </figure>
+                                    </div>
+                                    <div class="tile-content">
+                                        <div class="tile-title">Lumiq Creative</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a target="_blank" href="https://jacksonhayes.xyz/">
+                            <div class="column card">
+                                <div class="tile tile-centered">
+                                    <div class="tile-icon">
+                                        <figure class="avatar avatar-lg">
+                                            <img src="https://jacksonhayes.xyz/images/profile.png"
+                                                 alt="...">
+                                        </figure>
+                                    </div>
+                                    <div class="tile-content">
+                                        <div class="tile-title">Jackson Hayes</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a target="_blank" href="https://www.jahirfiquitiva.me/support">
+                            <div class="column card">
+                                <div class="tile tile-centered">
+                                    <div class="tile-icon">
+                                        <figure class="avatar avatar-lg">
+                                            <img src="https://ssl.gstatic.com/images/branding/product/1x/avatar_circle_blue_512dp.png"
+                                                 alt="...">
+                                        </figure>
+                                    </div>
+                                    <div class="tile-content">
+                                        <div class="tile-title">Your Name Here</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <br><br><br>
+                <div class="divider"></div>
+                <br><br><br>
+
+                <div id="contact">
+                    <h2>Get in Touch</h2>
+                    <h5>Don't hesitate contacting me!</h5>
+                    <br>
+
+                    <form id="contact-form" action="assets/contact/submit.php"
+                          method="post" onsubmit="return submitForm();">
+                        <div class="form-group">
+                            <label class="form-label" for="name">Name</label>
+                            <input class="form-input" type="text" id="name" name="name"
+                                   placeholder="Jon Doe"
+                                   required aria-required="true">
+                            <label class="form-label" for="subject">Subject</label>
+                            <input class="form-input" type="text" id="subject"
+                                   name="subject" placeholder="Let's work together"
+                                   required aria-required="true">
+                            <label class="form-label" for="email">E-mail</label>
+                            <input class="form-input" type="text" id="email"
+                                   name="email" placeholder="jon.doe@example.com"
+                                   required aria-required="true">
+                            <label class="form-label" for="message">Message</label>
+                            <textarea class="form-input" id="message" name="message"
+                                      placeholder="Hi Jahir..." rows="4"></textarea>
+
+                            <button class="btn btn-primary input-group-btn float-right"
+                                    name="action"
+                                    type="submit" id="submit">Submit
+                            </button>
+                            <br>
+                            <div class="form-buttons">
+                                <div id="captcha" class="g-recaptcha"
+                                     data-sitekey="6Lc-aCkTAAAAAOoMbUV54l-MyK4wWuqOLpMnS4pe">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="coming-soon" class="snackbar">Coming soon! :D</div>
+        <div id="captcha-snack" class="snackbar">Please confirm you are a human</div>
+        <div id="email-snack" class="snackbar">Please enter a correct email address</div>
+
+        <button class="btn btn-primary circle fab" onclick="scrollToItem()"><i
+                class="mdi mdi-24px mdi-chevron-up"></i></button>
+
+        <footer>
+            <div class="clearfix centered">
+                <p><i class="mdi mdi-code-tags mdi-18px"></i> with
+                    <i class="mdi mdi-heart mdi-18px"></i> by
+                    <a href="#"><b>Jahir Fiquitiva</b></a> © 2018</p>
+            </div>
+        </footer>
+
+        <!-- Particles -->
+        <script type="text/javascript" src="assets/libs/js/particles.min.js"></script>
+        <script type="text/javascript" src="assets/js/app.js"></script>
+        <!-- ReCaptcha -->
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+    </body>
+</html>

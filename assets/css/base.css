@@ -1,0 +1,335 @@
+html {
+    line-height: 1.4 !important;
+}
+
+#particles-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    z-index: -1;
+    opacity: 0.85;
+}
+
+header {
+    top: 0 !important;
+    position: fixed;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    z-index: 99;
+}
+
+.container {
+    width: 90%;
+}
+
+.has-shadow {
+    -webkit-box-shadow: 0 2px 3px rgba(10, 10, 10, 0.15);
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.15);
+}
+
+.btn {
+    border-radius: .15rem !important;
+}
+
+.content {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.brand-logo {
+    align-items: center;
+    border-radius: .1rem;
+    display: inline-flex;
+    display: -ms-inline-flexbox;
+    -ms-flex-align: center;
+    height: 2rem;
+    padding: .2rem;
+    width: auto;
+}
+
+.brand-logo img {
+    display: inline;
+    height: auto;
+    width: 1.6rem;
+}
+
+.navbar {
+    padding-top: 0.48rem !important;
+    padding-bottom: 0.48rem !important;
+    padding-left: 0.56rem !important;
+    padding-right: 0.56rem !important;
+}
+
+.navbar-brand {
+    margin-left: 0.48rem;
+}
+
+.avatar.avatar-xxl {
+    font-size: 3.6rem;
+    height: 7.2rem;
+    width: 7.2rem;
+}
+
+.table {
+    overflow: auto !important;
+}
+
+.table.table-striped tbody tr:nth-of-type(odd) {
+    background: #f5f5f5;
+}
+
+.filter .filter-tag ~ .filter-nav .chip {
+    cursor: pointer !important;
+    padding: .5rem !important;
+    margin: .3rem !important;
+}
+
+.no-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.filter-item.card {
+    border: none !important;
+    margin: 0.4rem !important;
+}
+
+.filter-item.card .card-image {
+    padding-top: .6rem !important;
+    padding-left: .4rem !important;
+    padding-right: .4rem !important;
+    max-width: 50%;
+}
+
+.filter-item.card .card-header .card-subtitle {
+    margin-top: 0.6rem;
+}
+
+.tile {
+    padding: .4rem !important;
+}
+
+.tile-content {
+    margin-left: .6rem !important;
+}
+
+.card {
+    border-radius: .15rem !important;
+    -webkit-box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
+}
+
+#contact .form-label {
+    margin-top: 0.4rem !important;
+}
+
+#contact .form-buttons {
+    margin-top: 0.6rem !important;
+
+}
+
+#contact button {
+    margin: 1rem 0.6rem 0.6rem !important;
+
+}
+
+footer {
+    text-align: center;
+    margin-top: .8rem !important;
+    margin-bottom: .8rem !important;
+}
+
+input,
+textarea,
+input:focus,
+textarea:focus {
+    outline: none !important;
+    border: none !important;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    /* Styles */
+    .filter-body {
+        margin-left: 0.2rem !important;
+        max-width: 90% !important;
+    }
+
+    .table {
+        display: block;
+        overflow-x: auto !important;
+        -ms-overflow-x: auto !important;
+        padding-bottom: .75rem;
+        white-space: nowrap;
+    }
+}
+
+#about p {
+    text-align: justify !important;
+}
+
+.table th,
+.table td {
+    padding-top: 0.6rem !important;
+    padding-right: 0.8rem !important;
+    padding-bottom: 0.6rem !important;
+    padding-left: 0.8rem !important;
+}
+
+.table th:nth-child(2n),
+.table td:nth-child(2n) {
+    border-left: .05rem solid #e7e9ed;
+    border-right: .05rem solid #e7e9ed;
+}
+
+.fab {
+    position: fixed;
+    width: 2.4rem !important;
+    height: 2.4rem !important;
+    right: 0;
+    bottom: 0;
+    margin-right: 0.8rem !important;
+    margin-bottom: 0.8rem !important;
+    z-index: 999;
+    -webkit-box-shadow: 0 2px 3px rgba(10, 10, 10, 0.15);
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.15);
+    border-radius: 50% !important;
+}
+
+/* The snackbar - position it at the bottom and in the middle of the screen */
+.snackbar {
+    visibility: hidden; /* Hidden by default. Visible on click */
+    min-height: 1rem;
+    min-width: 2rem; /* Set a default minimum width */
+    margin-left: 1.2rem; /* Divide value of min-width by 2 */
+    background-color: #fafafa; /* Black background color */
+    color: #212121; /* White text color */
+    text-align: left; /* Centered text */
+    border-radius: 0.3rem; /* Rounded borders */
+    position: fixed; /* Sit on top of the screen */
+    padding: 1rem !important;
+    padding-top: .6rem !important;
+    padding-bottom: .6rem !important;
+    z-index: 2; /* Add a z-index if needed */
+    bottom: 1.2rem; /* Margin from the bottom */
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.3);
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+.snackbar.show {
+    visibility: visible; /* Show the snackbar */
+
+    /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+    However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+    to {
+        bottom: 1.2rem;
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+    to {
+        bottom: 1.2rem;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        bottom: 1.2rem;
+        opacity: 1;
+    }
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        bottom: 1.2rem;
+        opacity: 1;
+    }
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+.bmc-button img {
+    width: 27px !important;
+    margin-bottom: 3px !important;
+    margin-right: 4px !important;
+    box-shadow: none !important;
+    border: none !important;
+    vertical-align: middle !important;
+}
+
+.bmc-button {
+    line-height: 42px !important;
+    height: 42px !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    color: #000000 !important;
+    background-color: #FFFFFF !important;
+    border-radius: 3px !important;
+    border: 1px solid transparent !important;
+    padding: 0px 9.5px !important;
+    box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;
+    -webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
+    -o-transition: 0.3s all linear !important;
+    -moz-transition: 0.3s all linear !important;
+    -webkit-transition: 0.3s all linear !important;
+    -ms-transition: 0.3s all linear !important;
+    transition: 0.3s all linear !important;
+    margin: 0 auto !important;
+}
+
+.paypal-btn {
+    line-height: 38px !important;
+    height: 42px !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    color: #ffffff !important;
+    background-color: #003087 !important;
+    border-radius: 3px !important;
+    border: 1px solid transparent !important;
+    padding: 0px 9.5px !important;
+    padding-bottom: 8px !important;
+    box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;
+    -webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
+    -o-transition: 0.3s all linear !important;
+    -moz-transition: 0.3s all linear !important;
+    -webkit-transition: 0.3s all linear !important;
+    -ms-transition: 0.3s all linear !important;
+    transition: 0.3s all linear !important;
+    margin: 0 auto !important;
+    margin-top: 8px !important;
+}

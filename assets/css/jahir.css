@@ -1,0 +1,65 @@
+body {
+    background-color: #fafafa !important;
+    font-family: 'Roboto Mono', monospace !important;
+}
+
+.avatar {
+    background-color: rgba(0, 0, 0, 0.12) !important;
+}
+
+.primary-bg {
+    background-color: #4285F4 !important;
+}
+
+.btn.btn-primary {
+    background-color: #4285F4 !important;
+    outline: none !important;
+    border: none !important;
+}
+
+.primary {
+    color: #4285F4 !important;
+}
+
+a {
+    color: #4285F4 !important;
+}
+
+.navbar {
+    background-color: #f5f5f5 !important;
+}
+
+.filter .filter-tag#tag-0:checked ~ .filter-nav .chip[for=tag-0],
+.filter .filter-tag#tag-1:checked ~ .filter-nav .chip[for=tag-1],
+.filter .filter-tag#tag-2:checked ~ .filter-nav .chip[for=tag-2],
+.filter .filter-tag#tag-3:checked ~ .filter-nav .chip[for=tag-3],
+.filter .filter-tag#tag-4:checked ~ .filter-nav .chip[for=tag-4],
+.filter .filter-tag#tag-5:checked ~ .filter-nav .chip[for=tag-5],
+.filter .filter-tag#tag-6:checked ~ .filter-nav .chip[for=tag-6],
+.filter .filter-tag#tag-7:checked ~ .filter-nav .chip[for=tag-7],
+.filter .filter-tag#tag-8:checked ~ .filter-nav .chip[for=tag-8] {
+    background-color: #4285F4 !important;
+    color: #fff !important;
+}
+
+#supporters a {
+    color: #50596c !important;
+}
+
+#supporters .card {
+    margin: 0.4rem !important;
+    background-color: rgba(255, 255, 255, 0) !important;
+    -webkit-box-shadow: 0 2px 3px rgba(10, 10, 10, 0) !important;
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0) !important;
+}
+
+.divider {
+    border-top: .05rem solid rgba(0, 0, 0, 0.12) !important;
+}
+
+input,
+textarea,
+input:focus,
+textarea:focus {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.12) !important;
+}
