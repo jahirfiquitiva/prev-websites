@@ -1,13 +1,13 @@
 jahirfiquitiva.me
 ======
 
-I have created this repository to share the previous versions of [my website](https://www.jahirfiquitiva.me/) with you all.
+I have created this repository to share the previous versions of [my website](https://jahir.dev/) with you all.
 
 There are 3 versions available:
 - v1 (I used a paid template so I can't share it)
-- [v2](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v2)
-- [v3](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v3)
-- [v4](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v4)
+- [v2](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v2) Preview: [https://jahir-prev-v2.netlify.com/](https://jahir-prev-v2.netlify.com/)
+- [v3](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v3) Preview: [https://jahir-prev-v3.netlify.com/](https://jahir-prev-v3.netlify.com/)
+- [v4](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v4) Preview: [https://jahir-prev-v4.netlify.com/](https://jahir-prev-v4.netlify.com/)
 
 Feel free to use any of them but remember to comply with the license :wink:
 
@@ -54,16 +54,15 @@ Feel free to use any of them but remember to comply with the license :wink:
 
 # Developed by
 
-### [Jahir Fiquitiva](https://www.jahirfiquitiva.me/)
+### [Jahir Fiquitiva](https://jahir.dev/)
 
 [![Follow on GitHub](https://img.shields.io/github/followers/jahirfiquitiva.svg?style=social&label=Follow)](https://github.com/jahirfiquitiva)
 [![Twitter Follow](https://img.shields.io/twitter/follow/jahirfiquitiva.svg?style=social)](https://twitter.com/jahirfiquitiva)
-[![Google+](https://img.shields.io/badge/Follow-Google%2B-ea4335.svg)](https://plus.google.com/+JahirFiquitivaR)
 
 If you found this repository helpful and want to thank me, you can:
 
-<a target="_blank" href="http://www.jahirfiquitiva.me/support/">
-<img src="http://jahirfiquitiva.me/share/support_my_work.svg?maxAge=432000" width="200"/>
+<a target="_blank" href="http://jahir.dev/donate">
+<img src="http://jahir.dev/share/support_my_work.svg?maxAge=432000" width="200"/>
 </a>
 
 **Thanks in advance!** :pray:
@@ -74,7 +73,7 @@ If you found this repository helpful and want to thank me, you can:
 
 This app is shared under the CreativeCommons Attribution-ShareAlike license.
 
-	Copyright © 2018 Jahir Fiquitiva
+	Copyright © 2019 Jahir Fiquitiva
 
 	Licensed under the CreativeCommons Attribution-ShareAlike 
 	4.0 International License. You may not use this file except in compliance 
