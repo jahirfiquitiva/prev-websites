@@ -30,7 +30,7 @@ Feel free to use any of them but remember to comply with the license :wink:
 	- [Material Design Icons](materialdesignicons.com)
 	- [Dosis fonts](https://fonts.google.com/specimen/Dosis)
 	- [reCaptcha](https://www.google.com/recaptcha/intro/android.html)
-	- Designed by [Lumiq Creative](https://plus.google.com/+LumiqCreative)
+	- Designed by [Lumiq Creative](https://lumiqcreative.com/)
 	
 - v4:
 	- [spectre](https://picturepan2.github.io/spectre/)
@@ -45,10 +45,6 @@ Feel free to use any of them but remember to comply with the license :wink:
 [![GitHub stars](https://img.shields.io/github/stars/jahirfiquitiva/jahirfiquitiva.me.svg?style=social&label=Star)](https://github.com/jahirfiquitiva/jahirfiquitiva.me)
 [![GitHub forks](https://img.shields.io/github/forks/jahirfiquitiva/jahirfiquitiva.me.svg?style=social&label=Fork)](https://github.com/jahirfiquitiva/jahirfiquitiva.me/fork)
 [![GitHub watchers](https://img.shields.io/github/watchers/jahirfiquitiva/jahirfiquitiva.me.svg?style=social&label=Watch)](https://github.com/jahirfiquitiva/jahirfiquitiva.me)
-
-[![Follow on GitHub](https://img.shields.io/github/followers/jahirfiquitiva.svg?style=social&label=Follow)](https://github.com/jahirfiquitiva)
-[![Twitter Follow](https://img.shields.io/twitter/follow/jahirfiquitiva.svg?style=social)](https://twitter.com/jahirfiquitiva)
-[![Google+](https://img.shields.io/badge/Follow-Google%2B-ea4335.svg)](https://plus.google.com/+JahirFiquitivaR)
 
 ---
 
