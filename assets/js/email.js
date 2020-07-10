@@ -1,4 +1,4 @@
-const token = "4790479d-783a-42fc-bf9a-2835bbdb47d5";
+const token = "12345";
 const $formContact = document.querySelector("#contact-form");
 
 let nameInput = document.contactForm.name;
