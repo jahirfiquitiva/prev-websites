@@ -87,7 +87,7 @@ If you found this repository helpful and want to thank me, you can:
 
 This app is shared under the CreativeCommons Attribution-ShareAlike license.
 
-	Copyright © 2019 Jahir Fiquitiva
+	Copyright © 2020 Jahir Fiquitiva
 
 	Licensed under the CreativeCommons Attribution-ShareAlike 
 	4.0 International License. You may not use this file except in compliance 
