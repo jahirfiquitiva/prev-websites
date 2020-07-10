@@ -8,6 +8,7 @@ There are 3 versions available:
 - [v2](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v2) Preview: [https://jahir-prev-v2.netlify.com/](https://jahir-prev-v2.netlify.com/)
 - [v3](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v3) Preview: [https://jahir-prev-v3.netlify.com/](https://jahir-prev-v3.netlify.com/)
 - [v4](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v4) Preview: [https://jahir-prev-v4.netlify.com/](https://jahir-prev-v4.netlify.com/)
+- [v5](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v5) Preview: [https://jahir-prev-v5.netlify.app/](https://jahir-prev-v5.netlify.app/)
 
 Feel free to use any of them but remember to comply with the license :wink:
 
@@ -22,14 +23,14 @@ Feel free to use any of them but remember to comply with the license :wink:
 	- [jQuery](https://jquery.com/)
 	- [isotope](https://isotope.metafizzy.co/)
 	- [vibrant](https://jariz.github.io/vibrant.js/)
-	- [reCaptcha](https://www.google.com/recaptcha/intro/android.html)
+	- [reCaptcha](https://www.google.com/recaptcha/)
 	
 - v3:
 	- [milligram](https://milligram.io/)
 	- [milligrid](https://bencoveney.github.io/Milligrid/)
 	- [Material Design Icons](materialdesignicons.com)
 	- [Dosis fonts](https://fonts.google.com/specimen/Dosis)
-	- [reCaptcha](https://www.google.com/recaptcha/intro/android.html)
+	- [reCaptcha](https://www.google.com/recaptcha/)
 	- Designed by [Lumiq Creative](https://lumiqcreative.com/)
 	
 - v4:
@@ -37,7 +38,15 @@ Feel free to use any of them but remember to comply with the license :wink:
 	- [Material Design Icons](materialdesignicons.com)
 	- [Roboto Mono fonts](https://fonts.google.com/specimen/Roboto+Mono)
 	- [particles js](https://vincentgarreau.com/particles.js/)
-	- [reCaptcha](https://www.google.com/recaptcha/intro/android.html)
+	- [reCaptcha](https://www.google.com/recaptcha/)
+
+- v5:
+	- [bulma](https://bulma.io)
+	- [Material Design Icons](materialdesignicons.com)
+	- [Meera Inimai fonts](https://fonts.google.com/specimen/Meera+Inimai)
+	- [particles js](https://vincentgarreau.com/particles.js/)
+	- [reCaptcha](https://www.google.com/recaptcha/)
+	- [Netlify Forms](https://docs.netlify.com/forms/setup/)
 
 ---
 
