@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /assets/contact/
+Disallow: /assets/fonts/
+Disallow: /blog/
+Disallow: /frames/
+Disallow: /gallery/
+Disallow: /share/
+Sitemap: https://jahirfiquitiva.com/sitemap.xml

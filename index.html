@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en" class="has-navbar-fixed-top">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+        <!--[if IE]>
+        <meta http-equiv="cleartype" content="on"/><![endif]-->
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Jahir Fiquitiva</title>
+        <meta name="description"
+              content="Colombian passionate and creative developer. This website contains information about me, my skills and my portfolio.">
+        <meta name="author" content="Jahir Fiquitiva">
+        <meta name="keywords"
+              content="portfolio, skills, developer, development, android, material, material design, kotlin, java, javascript, css, html, python, c, c++, design, iconography, illustration">
+
+        <meta property="og:title" content="Jahir Fiquitiva"/>
+        <meta property="og:site_name" content="Jahir Fiquitiva"/>
+
+        <!-- Schema.org markup for Google+ -->
+        <meta itemprop="name" content="Jahir Fiquitiva">
+        <meta itemprop="description"
+              content="Colombian passionate and creative developer. This website contains information about me, my skills and my portfolio.">
+        <meta itemprop="image"
+              content="https://github.com/jahirfiquitiva/Website-Resources/raw/master/myself/logo-full-sm.png">
+
+        <!-- Open Graph data -->
+        <meta property="og:title" content="Jahir Fiquitiva"/>
+        <meta property="og:type" content="portfolio"/>
+        <meta property="og:url" content="https://jahirfiquitiva.com/"/>
+        <meta property="og:image"
+              content="https://github.com/jahirfiquitiva/Website-Resources/raw/master/myself/logo-full-sm.png"/>
+        <meta property="og:description"
+              content="Colombian passionate and creative developer. This website contains information about me, my skills and my portfolio."/>
+        <meta property="og:site_name" content="Jahir Fiquitiva"/>
+        <meta property="og:locale" content="en_US"/>
+        <link rel="canonical" href="https://jahirfiquitiva.com/"/>
+
+        <!-- Twitter -->
+        <!-- Twitter Card data -->
+        <meta name="twitter:card"
+              content="Colombian passionate and creative developer. This website contains information about me, my skills and my portfolio.">
+        <meta name="twitter:site" content="@jahirfiquitiva">
+        <meta name="twitter:title" content="Jahir Fiquitiva">
+        <meta name="twitter:description"
+              content="Colombian passionate and creative developer. This website contains information about me, my skills and my portfolio.">
+        <meta name="twitter:creator" content="@jahirfiquitiva">
+        <!-- Twitter summary card with large image must be at least 280x150px -->
+        <meta name="twitter:image:src"
+              content="https://github.com/jahirfiquitiva/Website-Resources/raw/master/myself/logo-full-sm.png">
+
+        <!-- Google Verification -->
+        <link href="https://plus.google.com/+JahirFiquitivaR/" rel="publisher"/>
+        <meta name="google-site-verification"
+              content="lJwL3cKpjX_Eqp6yEY4hsydJazQl85xv29ZUmEg4oEE"/>
+
+        <!-- Theme Colors -->
+        <meta name="theme-color" content="#FAFAFA">
+        <meta name="msapplication-TileColor" content="#FAFAFA">
+        <meta name="msapplication-navbutton-color" content="#FAFAFA">
+
+        <!-- Favicons -->
+        <link rel="shortcut icon"
+              href="https://github.com/jahirfiquitiva/Website-Resources/raw/master/myself/favicon32.png">
+        <link rel="apple-touch-icon"
+              href="https://github.com/jahirfiquitiva/Website-Resources/raw/master/myself/favicon57.png">
+        <link rel="apple-touch-icon" sizes="72x72"
+              href="https://github.com/jahirfiquitiva/Website-Resources/raw/master/myself/favicon72.png">
+        <link rel="apple-touch-icon" sizes="114x114"
+              href="https://github.com/jahirfiquitiva/Website-Resources/raw/master/myself/favicon114.png">
+        <link rel="apple-touch-icon-precomposed"
+              href="https://github.com/jahirfiquitiva/Website-Resources/raw/master/myself/favicon32.png">
+        <link rel="icon"
+              href="https://github.com/jahirfiquitiva/Website-Resources/raw/master/myself/favicon32.png"
+              sizes="32x32">
+        <meta name="msapplication-TileImage"
+              content="https://github.com/jahirfiquitiva/Website-Resources/raw/master/myself/favicon32.png">
+
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css"/>
+
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/balloon-css/0.5.0/balloon.min.css">
+
+        <link rel="stylesheet"
+              href="https://cdn.materialdesignicons.com/2.4.85/css/materialdesignicons.min.css">
+
+        <link rel="stylesheet"
+              href="https://fonts.googleapis.com/css?family=Meera+Inimai:400,500,700">
+
+        <link rel="stylesheet" href="assets/css/v5.css" media="all">
+        <link rel="stylesheet" href="assets/css/recaptcha.css" media="all">
+        <link rel="stylesheet" href="assets/css/snackbar.css" media="all" id="snack-css">
+    </head>
+    <body>
+        <div id="particles-bg"></div>
+
+        <nav class="navbar is-fixed-top has-shadow" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item is-primary-text is-logo" href="/">
+                    <img src="assets/img/brand/logo-def.svg" alt="JF" height="48"
+                         width="48" id="logo">
+                    Jahir Fiquitiva
+                </a>
+
+                <button class="button navbar-burger" data-target="nav-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+
+            <div class="navbar-end">
+                <div class="navbar-menu" id="nav-menu">
+                    <a class="navbar-item is-active" onclick="scrollToItem('home')" id="home-link">
+                        Home
+                    </a>
+                    <a class="navbar-item" onclick="scrollToItem('skills')" id="skills-link">
+                        Skills
+                    </a>
+                    <a class="navbar-item" onclick="scrollToItem('portfolio')" id="portfolio-link">
+                        Portfolio
+                    </a>
+                    <a class="navbar-item" onclick="scrollToItem('contact')" id="contact-link">
+                        Contact
+                    </a>
+                    <a class="navbar-item" href="/thanks/">
+                        Supporters
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <section class="section hero is-fullheight" id="home">
+            <div class="hero-body">
+                <div class="container home is-vcentered">
+                    <div class="content home has-text-justified">
+                        <div class="columns is-vcentered">
+                            <div class="column is-3 has-text-centered">
+                                <figure class="image avatar">
+                                    <img src="https://raw.githubusercontent.com/jahirfiquitiva/Website-Resources/master/myself/me-square.png"
+                                         class="circular has-shadow">
+                                </figure>
+                            </div>
+                            <div class="column is-9">
+                                <h2 class="custom-title">Hello, world!<br>I am Jahir Fiquitiva 👋
+                                </h2>
+                                <h5>A passionate and creative developer from <a
+                                        href="https://www.google.com/maps/place/Colombia/@4.645345,-74.3390061,5z/"
+                                        target="_blank">Colombia 🇨🇴</a></h5>
+                            </div>
+                        </div>
+                        <!--
+                        <h4>A passionate and creative developer</h4>
+                        <p>I was born in 1997 in Duitama, <a
+                                href="https://www.youtube.com/watch?v=rTsPaAIJdnw"
+                                target="_blank">Colombia</a>.<br>
+                           I code, design, translate and consult.
+                        </p>
+                        <p>
+                            I got interested in learning to develop Android apps back in 2014 and I
+                            started with simple things, like customization and theme apps that you can
+                            find and download <a
+                                href="https://play.google.com/store/apps/developer?id=MinDesigns"
+                                target="_blank">clicking here</a>.
+
+                            After learning a good amount of things, I decided that it was time to start
+                            working on more <a onclick="scrollToItem('portfolio')">interesting and
+                                                                                   useful
+                                                                                   apps </a> which also
+                            helped me realize that I wanted to start a Software Development career.
+                        </p>
+                        -->
+                        <p>I am currently studying Systems and Computing Engineering
+                            <i>(an equivalent to Computer Science)</i> at
+                            <a href="http://www.uptc.edu.co/" target="_blank">Pedagogical and
+                                                                              Technological
+                                                                              University
+                                                                              of Colombia</a>.
+                           I consider myself a curious and inquisitive person, so on my spare time I
+                           like to work on <a onclick="scrollToItem('portfolio')">side projects</a>
+                           and try to constantly learn something new or improve my skillset.</p>
+                        <p><b>
+                            Let's work together! You can download my <a
+                                href="/resume/" target="_blank">resume here</a>.
+                        </b></p>
+                        <!--
+                        <p>Additionally, if you like any of the things I do, please consider
+                            <a href="/donate/" target="_blank">
+                                supporting my work</a>.<br>
+                            <a href="/thanks/" target="_blank">
+                                Huge thanks to all the amazing people that already do!</a>
+                        </p>
+                        -->
+                        <p>
+                            You can also <b>find me on</b> 👇:
+                        <div class="tags social-tags is-vcentered">
+                            <a class="tag is-github is-medium" target="_blank"
+                               data-balloon="GitHub" data-balloon-pos="up"
+                               href="/redirects/?t=github">
+                                <i class="mdi mdi-18px mdi-github-circle"></i>
+                            </a>
+                            <a class="tag is-twitter is-medium" target="_blank"
+                               data-balloon="Twitter" data-balloon-pos="up"
+                               href="/redirects/?t=twitter">
+                                <i class="mdi mdi-18px mdi-twitter"></i>
+                            </a>
+                            <a class="tag is-google-plus is-medium" target="_blank"
+                               data-balloon="Google+" data-balloon-pos="up"
+                               href="/redirects/?t=googleplus">
+                                <i class="mdi mdi-18px mdi-google-plus"></i>
+                            </a>
+                            <a class="tag is-linked-in is-medium" target="_blank"
+                               data-balloon="LinkedIn" data-balloon-pos="up"
+                               href="/redirects/?t=linkedin">
+                                <i class="mdi mdi-18px mdi-linkedin"></i>
+                            </a>
+                            <a class="tag is-medium-blog is-medium" target="_blank"
+                               data-balloon="Medium" data-balloon-pos="up"
+                               href="/redirects/?t=medium">
+                                <i class="mdi mdi-18px mdi-medium"></i>
+                            </a>
+                            <a class="tag is-google-play is-medium" target="_blank"
+                               data-balloon="Google Play Store" data-balloon-pos="up"
+                               href="/redirects/?t=googleplay">
+                                <i class="mdi mdi-18px mdi-google-play"></i>
+                            </a>
+                            <a class="tag is-instagram is-medium" target="_blank"
+                               data-balloon="Instagram" data-balloon-pos="up"
+                               href="/redirects/?t=instagram">
+                                <i class="mdi mdi-18px mdi-instagram"></i>
+                            </a>
+                            <a class="tag is-dribbble is-medium" target="_blank"
+                               data-balloon="Dribbble" data-balloon-pos="up"
+                               href="/redirects/?t=dribbble">
+                                <i class="mdi mdi-18px mdi-dribbble"></i>
+                            </a>
+                            <a class="tag is-telegram is-medium" target="_blank"
+                               data-balloon="Telegram" data-balloon-pos="up"
+                               href="/redirects/?t=telegram">
+                                <i class="mdi mdi-18px mdi-telegram"></i>
+                            </a>
+                            <a class="tag is-primary is-medium"
+                               data-balloon="Contact" data-balloon-pos="up"
+                               onclick="scrollToItem('contact')">
+                                <i class="mdi mdi-18px mdi-email"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="section is-fullheight" id="skills">
+            <div class="container is-vcentered">
+                <div class="content has-text-justified">
+                    <h1>Skills 🚀</h1>
+                    <h4>Learning is a never-ending process</h4>
+                    <br>
+                    <div class="columns">
+                        <div class="column">
+                            <h6>Programming</h6>
+                            <ul>
+                                <li>Android Development</li>
+                                <li>Kotlin</li>
+                                <li>Java</li>
+                                <li>Python</li>
+                                <li>JavaScript</li>
+                                <li>HTML5/CSS3</li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h6>General</h6>
+                            <ul>
+                                <li>Git</li>
+                                <li>Material Design</li>
+                                <li>Adobe Illustrator</li>
+                                <li>Product Iconography</li>
+                                <li>Illustration</li>
+                                <li>UI/UX</li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h6>Languages</h6>
+                            <ul>
+                                <li>Spanish (native)</li>
+                                <li>English (fluid)</li>
+                                <li>Italian (basic)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="section" id="portfolio">
+            <div class="container is-vcentered">
+                <div class="content has-text-justified">
+                    <h1>Portfolio 👨‍💻</h1>
+                    <h4>Current and past projects of mine</h4>
+                    <br>
+
+                    <div class="tabs is-toggle" id="portfolio-tabs">
+                        <ul>
+                            <li class="portfolio-tab is-active" id="android-tab"
+                                onclick="togglePortfolio('android');">
+                                <a>
+                                    <span class="icon is-small">
+                                        <i class="mdi mdi-android mdi-18px" aria-hidden="true"></i>
+                                    </span>
+                                    <span>Android</span>
+                                </a>
+                            </li>
+                            <li class="portfolio-tab" id="design-tab"
+                                onclick="togglePortfolio('design');">
+                                <a>
+                                    <span class="icon is-small">
+                                        <i class="mdi mdi-brush mdi-18px" aria-hidden="true"></i>
+                                    </span>
+                                    <span>Design</span>
+                                </a>
+                            </li>
+                            <li class="portfolio-tab" id="others-tab"
+                                onclick="togglePortfolio('others');">
+                                <a>
+                                    <span class="icon is-small">
+                                        <i class="mdi mdi-plus mdi-18px" aria-hidden="true"></i>
+                                    </span>
+                                    <span>Others</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="columns is-multiline is-mobile portfolio-section"
+                         id="portfolio-android">
+                        <div class="column is-12-mobile is-one-third-tablet is-one-quarter-desktop">
+                            <a href="https://github.com/jahirfiquitiva/Blueprint/"
+                               target="_blank">
+                                <div class="box">
+                                    <figure class="image is-128x128">
+                                        <img src="https://github.com/jahirfiquitiva/Blueprint/raw/master/art/app_logo.png"
+                                             alt="Blueprint icon">
+                                    </figure>
+                                    <h5 class="title">Blueprint</h5>
+                                    <p class="subtitle is-6">A Material Design dashboard for
+                                                             creating Android icon packs
+                                                             easily.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column is-12-mobile is-one-third-tablet is-one-quarter-desktop">
+                            <a href="https://github.com/jahirfiquitiva/Frames/" target="_blank">
+                                <div class="box">
+                                    <figure class="image is-128x128">
+                                        <img src="/assets/img/portfolio/apps/frames.png"
+                                             alt="Frames icon">
+                                    </figure>
+                                    <h5 class="title">Frames</h5>
+                                    <p class="subtitle is-6">A Material Design dashboard for
+                                                             creating Android wallpapers apps
+                                                             easily.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column is-12-mobile is-one-third-tablet is-one-quarter-desktop">
+                            <a href="https://github.com/jahirfiquitiva/Kuper/" target="_blank">
+                                <div class="box">
+                                    <figure class="image is-128x128">
+                                        <img src="/assets/img/portfolio/apps/kuper.png"
+                                             alt="Kuper icon">
+                                    </figure>
+                                    <h5 class="title">Kuper</h5>
+                                    <p class="subtitle is-6">A Material Design dashboard for
+                                                             Zooper
+                                                             and Kustom widget packs.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column is-12-mobile is-one-third-tablet is-one-quarter-desktop">
+                            <a href="https://github.com/jahirfiquitiva/ChipView"
+                               target="_blank">
+                                <div class="box">
+                                    <figure class="image is-128x128">
+                                        <img src="/assets/img/portfolio/apps/chipview.png"
+                                             alt="ChipView icon">
+                                    </figure>
+                                    <h5 class="title">ChipView</h5>
+                                    <p class="subtitle is-6">An Android custom view to provide
+                                                             the
+                                                             Material Design specs Chip
+                                                             component</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column is-12-mobile is-one-third-tablet is-one-quarter-desktop">
+                            <a href="https://play.google.com/store/apps/details?id=jahirfiquitiva.apps.queep"
+                               target="_blank">
+                                <div class="box">
+                                    <figure class="image is-128x128">
+                                        <img src="/assets/img/portfolio/apps/tap-keep.png"
+                                             alt="Tap for Keep icon">
+                                    </figure>
+                                    <h5 class="title">Tap for Keep</h5>
+                                    <p class="subtitle is-6">A Floating Action Button for
+                                                             quickly
+                                                             creating notes in Google Keep.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column is-12-mobile is-one-third-tablet is-one-quarter-desktop">
+                            <a href="https://play.google.com/store/apps/details?id=jahirfiquitiva.apps.tap"
+                               target="_blank">
+                                <div class="box">
+                                    <figure class="image is-128x128">
+                                        <img src="/assets/img/portfolio/apps/tap-todoist.png"
+                                             alt="Tap for Todoist icon">
+                                    </figure>
+                                    <h5 class="title">Tap for Todoist</h5>
+                                    <p class="subtitle is-6">A Floating Action Button for
+                                                             quickly
+                                                             creating tasks in Todoist.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column is-12-mobile is-one-third-tablet is-one-quarter-desktop">
+                            <a href="https://play.google.com/store/apps/details?id=jahirfiquitiva.themes.meliornui"
+                               target="_blank">
+                                <div class="box">
+                                    <figure class="image is-128x128">
+                                        <img src="/assets/img/portfolio/apps/melior-nui.png"
+                                             alt="Melior NUI icon">
+                                    </figure>
+                                    <h5 class="title">Melior NUI</h5>
+                                    <p class="subtitle is-6">A Material Design theme for
+                                                             LineageOS
+                                                             Theme Engine.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column is-12-mobile is-one-third-tablet is-one-quarter-desktop">
+                            <a href="https://github.com/jahirfiquitiva/FABsMenu/"
+                               target="_blank">
+                                <div class="box">
+                                    <figure class="image is-128x128">
+                                        <img src="/assets/img/portfolio/libs/fabsmenu.png"
+                                             alt="FABsMenu icon">
+                                    </figure>
+                                    <h5 class="title">FABsMenu</h5>
+                                    <p class="subtitle is-6">An Android library to create a
+                                                             Floating
+                                                             Action Button Menus.</p>
+                                    <p></p>
+                                    <a href="https://github.com/leinardi/FloatingActionButtonSpeedDial"
+                                       target="_blank"
+                                       class="button is-small is-primary">Alternative</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="columns is-multiline is-mobile portfolio-section"
+                         id="portfolio-design"
+                         style="display: none;">
+                        <div class="column is-12-mobile is-one-third-tablet is-one-quarter-desktop">
+                            <a href="https://play.google.com/store/apps/details?id=com.heinrichreimersoftware.androidissuereporter.example"
+                               target="_blank">
+                                <div class="box">
+                                    <figure class="image is-128x128">
+                                        <img src="/assets/img/portfolio/iconography/androidissuereporter_product_icon.png"
+                                             alt="Android Issue Reporter icon">
+                                    </figure>
+                                    <h5 class="title">Android Issue Reporter</h5>
+                                    <p class="subtitle is-6">A product icon for the app.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column is-12-mobile is-one-third-tablet is-one-quarter-desktop">
+                            <a href="https://play.google.com/store/apps/details?id=com.NxIndustries.Sapphire"
+                               target="_blank">
+                                <div class="box">
+                                    <figure class="image is-128x128">
+                                        <img src="/assets/img/portfolio/iconography/sapphirelauncher_product_icon.png"
+                                             alt="Sapphire Launcher icon">
+                                    </figure>
+                                    <h5 class="title">Sapphire Launcher</h5>
+                                    <p class="subtitle is-6">A product icon for the app.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column is-12-mobile is-one-third-tablet is-one-quarter-desktop">
+                            <a href="https://play.google.com/store/apps/details?id=com.heinrichreimersoftware.singleinputform.example"
+                               target="_blank">
+                                <div class="box">
+                                    <figure class="image is-128x128">
+                                        <img src="/assets/img/portfolio/iconography/singleform_product_icon.png"
+                                             alt="Material Single Input Form icon">
+                                    </figure>
+                                    <h5 class="title">Material Single Input Form</h5>
+                                    <p class="subtitle is-6">A product icon for the app.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column is-12-mobile is-one-third-tablet is-one-quarter-desktop">
+                            <a href="https://play.google.com/store/apps/details?id=com.heinrichreimersoftware.materialdrawerdemo"
+                               target="_blank">
+                                <div class="box">
+                                    <figure class="image is-128x128">
+                                        <img src="/assets/img/portfolio/iconography/materialdrawer_product_icon.png"
+                                             alt="Material Drawer icon">
+                                    </figure>
+                                    <h5 class="title">Material Drawer</h5>
+                                    <p class="subtitle is-6">A product icon for the app.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="columns is-multiline is-mobile portfolio-section"
+                         id="portfolio-others"
+                         style="display: none;">
+                        <div class="column is-12-mobile is-one-third-tablet is-one-quarter-desktop">
+                            <a href="/SlidingPuzzle/"
+                               target="_blank">
+                                <div class="box">
+                                    <figure class="image is-128x128">
+                                        <img src="/assets/img/portfolio/apps/puzzle.png"
+                                             alt="🔢">
+                                    </figure>
+                                    <h5 class="title">Sliding Puzzle</h5>
+                                    <p class="subtitle is-6">A pseudo-AI that solves the
+                                                             8-Puzzle
+                                                             aka Sliding Puzzle. You can play
+                                                             too.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column is-12-mobile is-one-third-tablet is-one-quarter-desktop">
+                            <a href="/touri/"
+                               target="_blank">
+                                <div class="box">
+                                    <figure class="image is-128x128">
+                                        <img src="/assets/img/portfolio/apps/touri.png"
+                                             alt="Touri icon">
+                                    </figure>
+                                    <h5 class="title">Touri</h5>
+                                    <p class="subtitle is-6">A bot to answer tourism related
+                                                             questions.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column is-12-mobile is-one-third-tablet is-one-quarter-desktop">
+                            <a href="https://github.com/jahirfiquitiva/stanbot"
+                               target="_blank">
+                                <div class="box">
+                                    <figure class="image is-128x128">
+                                        <img src="/assets/img/portfolio/apps/stan.png"
+                                             alt="Stan icon">
+                                    </figure>
+                                    <h5 class="title">Stan</h5>
+                                    <p class="subtitle is-6">A Slack bot to help with text-based
+                                                             SCRUM stand-ups.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column is-12-mobile is-one-third-tablet is-one-quarter-desktop">
+                            <a href="https://github.com/jahirfiquitiva?tab=repositories"
+                               target="_blank">
+                                <div class="box">
+                                    <figure class="image is-128x128">
+                                        <img src="/assets/img/portfolio/apps/more.png"
+                                             alt="More projects icon">
+                                    </figure>
+                                    <h5 class="title">More
+                                    </h5>
+                                    <p class="subtitle is-6">Other open-source projects</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="section contacto" id="contact">
+            <div class="container is-vcentered">
+                <div class="content has-text-justified">
+                    <h1>Get in Touch 📮</h1>
+                    <h4>Don't hesitate contacting me!</h4>
+                    <br>
+                    <form id="contact-form">
+                        <div class="field is-horizontal">
+                            <div class="field-label is-normal">
+                                <label class="label">From</label>
+                            </div>
+                            <div class="field-body">
+                                <div class="field">
+                                    <p class="control is-expanded has-icons-left">
+                                        <input class="input" type="text" placeholder="Jon Doe"
+                                               id="name" name="name"
+                                               required aria-required="true">
+                                        <span class="icon is-small is-left">
+                                            <i class="mdi mdi-account"></i>
+                                        </span>
+                                    </p>
+                                </div>
+                                <div class="field">
+                                    <p class="control is-expanded has-icons-left has-icons-right">
+                                        <input class="input" type="email" id="email"
+                                               name="email"
+                                               placeholder="jon.doe@example.com"
+                                               required aria-required="true">
+                                        <span class="icon is-small is-left">
+                                            <i class="mdi mdi-email"></i>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="field is-horizontal">
+                            <div class="field-label is-normal">
+                                <label class="label">Subject</label>
+                            </div>
+                            <div class="field-body">
+                                <div class="field">
+                                    <div class="control">
+                                        <input class="input" type="text"
+                                               placeholder="e.g. Let's work together"
+                                               id="subject" name="subject"
+                                               required aria-required="true">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="field is-horizontal">
+                            <div class="field-label is-normal">
+                                <label class="label">Message</label>
+                            </div>
+                            <div class="field-body">
+                                <div class="field">
+                                    <div class="control">
+                                    <textarea class="textarea"
+                                              placeholder="Hi Jahir..."
+                                              id="message" name="message"
+                                              required aria-required="true"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="field is-horizontal">
+                            <div class="field-label">
+                                <!-- Left empty for spacing -->
+                            </div>
+                            <div class="field-body">
+                                <div class="field">
+                                    <div class="control">
+                                        <div id="captcha" class="g-recaptcha"
+                                             data-sitekey="123">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="field is-horizontal">
+                            <div class="field-label">
+                                <!-- Left empty for spacing -->
+                            </div>
+                            <div class="field-body">
+                                <div class="field">
+                                    <div class="control">
+                                        <button class="button is-primary"
+                                                name="action" type="submit" id="submit">
+                                            Send message
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <div id="coming-soon" class="snackbar">Coming soon! :D</div>
+        <div id="captcha-snack" class="snackbar">Please confirm you are a human</div>
+        <div id="email-snack" class="snackbar">Please enter a correct email address</div>
+        <div id="email-empty-snack" class="snackbar">Please put some content in your message</div>
+
+        <footer class="footer no-top-margin">
+            <div class="container">
+                <div class="container-content">
+                    <div class="tags social-tags is-vcentered">
+                        <a class="tag is-github is-medium" target="_blank"
+                           data-balloon="GitHub" data-balloon-pos="up"
+                           href="/redirects/?t=github">
+                            <i class="mdi mdi-18px mdi-github-circle"></i>
+                        </a>
+                        <a class="tag is-twitter is-medium" target="_blank"
+                           data-balloon="Twitter" data-balloon-pos="up"
+                           href="/redirects/?t=twitter">
+                            <i class="mdi mdi-18px mdi-twitter"></i>
+                        </a>
+                        <a class="tag is-google-plus is-medium" target="_blank"
+                           data-balloon="Google+" data-balloon-pos="up"
+                           href="/redirects/?t=googleplus">
+                            <i class="mdi mdi-18px mdi-google-plus"></i>
+                        </a>
+                        <a class="tag is-linked-in is-medium" target="_blank"
+                           data-balloon="LinkedIn" data-balloon-pos="up"
+                           href="/redirects/?t=linkedin">
+                            <i class="mdi mdi-18px mdi-linkedin"></i>
+                        </a>
+                        <a class="tag is-medium-blog is-medium" target="_blank"
+                           data-balloon="Medium" data-balloon-pos="up"
+                           href="/redirects/?t=medium">
+                            <i class="mdi mdi-18px mdi-medium"></i>
+                        </a>
+                        <a class="tag is-google-play is-medium" target="_blank"
+                           data-balloon="Google Play Store" data-balloon-pos="up"
+                           href="/redirects/?t=googleplay">
+                            <i class="mdi mdi-18px mdi-google-play"></i>
+                        </a>
+                        <a class="tag is-instagram is-medium" target="_blank"
+                           data-balloon="Instagram" data-balloon-pos="up"
+                           href="/redirects/?t=instagram">
+                            <i class="mdi mdi-18px mdi-instagram"></i>
+                        </a>
+                        <a class="tag is-dribbble is-medium" target="_blank"
+                           data-balloon="Dribbble" data-balloon-pos="up"
+                           href="/redirects/?t=dribbble">
+                            <i class="mdi mdi-18px mdi-dribbble"></i>
+                        </a>
+                        <a class="tag is-telegram is-medium" target="_blank"
+                           data-balloon="Telegram" data-balloon-pos="up"
+                           href="/redirects/?t=telegram">
+                            <i class="mdi mdi-18px mdi-telegram"></i>
+                        </a>
+                        <a class="tag is-primary is-medium"
+                           data-balloon="Contact" data-balloon-pos="up"
+                           onclick="scrollToItem('contact')">
+                            <i class="mdi mdi-18px mdi-email"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="container-content">
+                    <p>
+                        <i class="mdi mdi-code-tags mdi-18px"></i> with
+                        <i class="mdi mdi-heart mdi-18px"></i> by
+                        <a href="/" target="_self">Jahir Fiquitiva</a>
+                    </p>
+                    <p id="copyright-notice"></p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Particles -->
+        <script type="text/javascript" src="assets/libs/js/particles.min.js"></script>
+        <!-- Theme -->
+        <script type="text/javascript" src="assets/js/main.js"></script>
+        <script type="text/javascript" src="assets/js/scroll.js"></script>
+        <script type="text/javascript" src="assets/js/contact.js"></script>
+        <script type="text/javascript" src="assets/js/emails.js"></script>
+        <!-- ReCaptcha -->
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+        <!-- Emails -->
+        <script src="https://smtpjs.com/v2/smtp.js"></script>
+    </body>
+</html>

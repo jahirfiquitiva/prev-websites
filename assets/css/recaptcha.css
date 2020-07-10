@@ -1,0 +1,28 @@
+/* ReCaptcha styles */
+@media screen and (max-width: 240px) {
+    .g-recaptcha {
+        transform: scale(0.5) !important;
+        -webkit-transform: scale(0.5) !important;
+    }
+}
+
+@media screen and (min-width: 241px) and (max-width: 320px) {
+    .g-recaptcha {
+        transform: scale(0.65) !important;
+        -webkit-transform: scale(0.65) !important;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+    .g-recaptcha {
+        transform: scale(0.75) !important;
+        -webkit-transform: scale(0.75) !important;
+    }
+}
+
+.g-recaptcha {
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform-origin: left top !important;
+    -webkit-transform-origin: left top !important;
+}

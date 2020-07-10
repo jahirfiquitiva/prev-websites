@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+    <url>
+        <loc>https://jahirfiquitiva.com/</loc>
+        <lastmod>2018-05-09T06:26:33+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://jahirfiquitiva.com/thanks/</loc>
+        <lastmod>2018-05-09T06:26:33+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://jahirfiquitiva.com/donate/</loc>
+        <lastmod>2018-05-09T06:26:33+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://jahirfiquitiva.com/redirects/?t=github</loc>
+        <lastmod>2018-05-09T06:26:33+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://jahirfiquitiva.com/redirects/?t=twitter</loc>
+        <lastmod>2018-05-09T06:26:33+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://jahirfiquitiva.com/redirects/?t=googleplus</loc>
+        <lastmod>2018-05-09T06:26:33+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://jahirfiquitiva.com/redirects/?t=linkedin</loc>
+        <lastmod>2018-05-09T06:26:33+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://jahirfiquitiva.com/redirects/?t=medium</loc>
+        <lastmod>2018-05-09T06:26:33+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://jahirfiquitiva.com/redirects/?t=googleplay</loc>
+        <lastmod>2018-05-09T06:26:33+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://jahirfiquitiva.com/redirects/?t=instagram</loc>
+        <lastmod>2018-05-09T06:26:33+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://jahirfiquitiva.com/redirects/?t=dribbble</loc>
+        <lastmod>2018-05-09T06:26:33+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://jahirfiquitiva.com/contact/</loc>
+        <lastmod>2018-05-09T06:26:33+00:00</lastmod>
+        <priority>0.64</priority>
+    </url>
+
+
+</urlset>
