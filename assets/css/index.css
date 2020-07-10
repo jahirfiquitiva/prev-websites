@@ -1,0 +1,375 @@
+/* ============== */
+/*    Portfolio   */
+/* ============== */
+
+.box {
+    --bord-col: rgba(116, 125, 140, .1);
+    -webkit-box-shadow: 0 0 0 1px var(--bord-col);
+    -moz-box-shadow: 0 0 0 1px var(--bord-col);
+    box-shadow: 0 0 0 1px var(--bord-col);
+    -webkit-transition: all ease .3s !important;
+    -moz-transition: all ease-in-out .3s !important;
+    -ms-transition: all ease-in-out .3s !important;
+    -o-transition: all ease-in-out .3s !important;
+    transition: all ease-in-out .3s !important;
+}
+
+#portfolio .box:active,
+#portfolio .box:hover,
+#portfolio .box:focus,
+#thanks .box:active,
+#thanks .box:hover,
+#thanks .box:focus {
+    --shadow-col: rgba(116, 125, 140, .25);
+    -webkit-box-shadow: 0 4px 12px 1px var(--shadow-col), 0 0 0 1px var(--bord-col);
+    -moz-box-shadow: 0 4px 12px 1px var(--shadow-col), 0 0 0 1px var(--bord-col);
+    box-shadow: 0 4px 12px 1px var(--shadow-col), 0 0 0 1px var(--bord-col);
+    -webkit-transform: translate(0, -0.12rem);
+    -moz-transform: translate(0, -0.12rem);
+    -ms-transform: translate(0, -0.12rem);
+    -o-transform: translate(0, -0.12rem);
+    transform: translate(0, -0.12rem);
+    cursor: pointer !important;
+}
+
+a .box:hover,
+a .box:focus,
+a .box:hover *,
+a .box:focus * {
+    cursor: pointer !important;
+}
+
+a .box:hover .title {
+    --title-col: var(--primary-text);
+    text-decoration: underline !important;
+    color: var(--title-col) !important;
+}
+
+#portfolio {
+    padding-top: 3.5rem !important;
+}
+
+#portfolio a:hover:after,
+#portfolio a:focus:after,
+#thanks a:hover:after,
+#thanks a:focus:after,
+#touri a:hover:after,
+#touri a:focus:after {
+    transform: scaleX(0) !important;
+}
+
+#portfolio .icon {
+    margin: .25rem auto 1.25rem !important;
+    opacity: .8 !important;
+    -webkit-transition: all ease-in-out .3s;
+    -moz-transition: all ease-in-out .3s;
+    -ms-transition: all ease-in-out .3s;
+    -o-transition: all ease-in-out .3s;
+    transition: all ease-in-out .3s;
+}
+
+#portfolio .icon:hover,
+#portfolio a:hover .icon,
+#portfolio a:focus .icon {
+    opacity: 1 !important;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+/* ================= */
+/* Portfolio Toggles */
+/* ================= */
+
+.portfolio-toggles {
+    margin-top: 2.4rem !important;
+    margin-bottom: 1.6rem !important;
+}
+
+.portfolio-toggles .button {
+    margin-bottom: 1rem !important;
+}
+
+.portfolio-toggles .button.is-active {
+    color: var(--white) !important;
+}
+
+#portfolio .button.is-rounded:hover,
+#portfolio .button.is-rounded:focus,
+#portfolio .button.is-rounded:active {
+    outline: none;
+    border-color: transparent !important;
+}
+
+#android-filter.button:hover,
+#android-filter.button.is-active {
+    --shadow-col-a: rgba(122, 194, 89, .4);
+    --shadow-col-b: rgba(122, 194, 89, .28);
+    --shadow-col-c: rgba(122, 194, 89, .24);
+    background-color: #7ac259 !important;
+    color: var(--primary-text) !important;
+}
+
+#android-filter.button.is-active:hover {
+    --shadow-col-a: rgba(110, 175, 80, .4);
+    --shadow-col-b: rgba(110, 175, 80, .28);
+    --shadow-col-c: rgba(110, 175, 80, .24);
+    background-color: #87c86a !important;
+    color: var(--primary-text) !important;
+}
+
+#web-filter.button:hover,
+#web-filter.button.is-active {
+    --shadow-col-a: rgba(66, 133, 244, .4);
+    --shadow-col-b: rgba(66, 133, 244, .28);
+    --shadow-col-c: rgba(66, 133, 244, .24);
+    background-color: rgba(66, 133, 244, 1) !important;
+    color: var(--white) !important;
+}
+
+#design-filter.button:hover,
+#design-filter.button.is-active {
+    --shadow-col-a: rgba(165, 94, 234, .4);
+    --shadow-col-b: rgba(165, 94, 234, .28);
+    --shadow-col-c: rgba(165, 94, 234, .24);
+    background-color: #a55eea !important;
+    color: var(--white) !important;
+}
+
+#design-filter.button.is-active:hover {
+    --shadow-col-a: rgba(149, 85, 211, .4);
+    --shadow-col-b: rgba(149, 85, 211, .28);
+    --shadow-col-c: rgba(149, 85, 211, .24);
+    background-color: #ae6eec !important;
+}
+
+#others-filter.button:hover,
+#others-filter.button.is-active {
+    --shadow-col-a: rgba(134, 155, 166, .4);
+    --shadow-col-b: rgba(134, 155, 166, .28);
+    --shadow-col-c: rgba(134, 155, 166, .24);
+    background-color: #869BA6 !important;
+    color: var(--white) !important;
+}
+
+#others-filter.button.is-active:hover {
+    --shadow-col-a: rgba(121, 140, 149, .4);
+    --shadow-col-b: rgba(121, 140, 149, .28);
+    --shadow-col-c: rgba(121, 140, 149, .24);
+    background-color: #92a5af !important;
+}
+
+/* ================================ */
+/* Custom colors for projects cards */
+/* ================================ */
+
+#blueprint .box:hover,
+#blueprint .box:focus {
+    --shadow-col: rgba(77, 138, 240, .25);
+    --bord-col: rgba(77, 138, 240, .1);
+}
+
+#blueprint .box:hover .title,
+#blueprint .box:focus .title {
+    --title-col: rgba(77, 138, 240, 1);
+}
+
+#frames .box:hover,
+#frames .box:focus {
+    --shadow-col: rgba(53, 180, 239, .25);
+    --bord-col: rgba(53, 180, 239, .1);
+}
+
+#frames .box:hover .title,
+#frames .box:focus .title {
+    --title-col: rgba(53, 180, 239, 1);
+}
+
+#kuper .box:hover,
+#kuper .box:focus {
+    --shadow-col: rgba(102, 115, 192, .25);
+    --bord-col: rgba(102, 115, 192, .1);
+}
+
+#kuper .box:hover .title,
+#kuper .box:focus .title {
+    --title-col: rgba(102, 115, 192, 1);
+}
+
+#chip .box:hover,
+#chip .box:focus {
+    --shadow-col: rgba(62, 149, 251, .25);
+    --bord-col: rgba(62, 149, 251, .1);
+}
+
+#chip .box:hover .title,
+#chip .box:focus .title {
+    --title-col: rgba(62, 149, 251, 1);
+}
+
+#pals .box:hover,
+#pals .box:focus {
+    --shadow-col: rgba(66, 133, 244, .25);
+    --bord-col: rgba(66, 133, 244, .1);
+}
+
+#pals .box:hover .title,
+#pals .box:focus .title {
+    --title-col: rgba(66, 133, 244, 1);
+}
+
+#tap-keep .box:hover,
+#tap-keep .box:focus {
+    --shadow-col: rgba(242, 200, 55, .25);
+    --bord-col: rgba(242, 200, 55, .1);
+}
+
+#tap-keep .box:hover .title,
+#tap-keep .box:focus .title {
+    --title-col: rgba(242, 200, 55, 1);
+}
+
+#tap-todoist .box:hover,
+#tap-todoist .box:focus {
+    --shadow-col: rgba(235, 89, 86, .25);
+    --bord-col: rgba(235, 89, 86, .1);
+}
+
+#tap-todoist .box:hover .title,
+#tap-todoist .box:focus .title {
+    --title-col: rgba(235, 89, 86, 1);
+}
+
+#melior .box:hover,
+#melior .box:focus {
+    --shadow-col: rgba(38, 124, 212, .25);
+    --bord-col: rgba(38, 124, 212, .1);
+}
+
+#melior .box:hover .title,
+#melior .box:focus .title {
+    --title-col: rgba(38, 124, 212, 1);
+}
+
+#fab .box:hover,
+#fab .box:focus {
+    --shadow-col: rgba(233, 36, 102, .25);
+    --bord-col: rgba(233, 36, 102, .1);
+}
+
+#fab .box:hover .title,
+#fab .box:focus .title {
+    --title-col: rgba(233, 36, 102, 1);
+}
+
+#setup .box:hover,
+#setup .box:focus {
+    --shadow-col: rgba(126, 40, 252, .25);
+    --bord-col: rgba(126, 40, 252, .1);
+}
+
+#setup .box:hover .title,
+#setup .box:focus .title {
+    --title-col: rgba(126, 40, 252, 1);
+}
+
+#changes .box:hover,
+#changes .box:focus {
+    --shadow-col: rgba(15, 174, 185, .25);
+    --bord-col: rgba(15, 174, 185, .1);
+}
+
+#changes .box:hover .title,
+#changes .box:focus .title {
+    --title-col: rgba(15, 174, 185, 1);
+}
+
+#issue .box:hover,
+#issue .box:focus {
+    --shadow-col: rgba(44, 181, 200, .25);
+    --bord-col: rgba(44, 181, 200, .1);
+}
+
+#issue .box:hover .title,
+#issue .box:focus .title {
+    --title-col: rgba(44, 181, 200, 1);
+}
+
+#sapphire .box:hover,
+#sapphire .box:focus {
+    --shadow-col: rgba(79, 113, 184, .25);
+    --bord-col: rgba(79, 113, 184, .1);
+}
+
+#sapphire .box:hover .title,
+#sapphire .box:focus .title {
+    --title-col: rgba(79, 113, 184, 1);
+}
+
+#md-input .box:hover,
+#md-input .box:focus {
+    --shadow-col: rgba(184, 45, 84, .25);
+    --bord-col: rgba(184, 45, 84, .1);
+}
+
+#md-input .box:hover .title,
+#md-input .box:focus .title {
+    --title-col: rgba(184, 45, 84, 1);
+}
+
+#md-drawer .box:hover,
+#md-drawer .box:focus {
+    --shadow-col: rgba(169, 145, 138, .25);
+    --bord-col: rgba(169, 145, 138, .1);
+}
+
+#md-drawer .box:hover .title,
+#md-drawer .box:focus .title {
+    --title-col: rgba(169, 145, 138, 1);
+}
+
+#puzzle .box:hover,
+#puzzle .box:focus {
+    --shadow-col: rgba(146, 146, 146, .25);
+    --bord-col: rgba(146, 146, 146, .1);
+}
+
+#puzzle .box:hover .title,
+#puzzle .box:focus .title {
+    --title-col: rgba(146, 146, 146, 1);
+}
+
+#touri .box:hover,
+#touri .box:focus {
+    --shadow-col: rgba(6, 126, 111, .25);
+    --bord-col: rgba(6, 126, 111, .1);
+}
+
+#touri .box:hover .title,
+#touri .box:focus .title {
+    --title-col: rgba(6, 126, 111, 1);
+}
+
+#stan .box:hover,
+#stan .box:focus {
+    --shadow-col: rgba(252, 131, 3, .25);
+    --bord-col: rgba(252, 131, 3, .1);
+}
+
+#stan .box:hover .title,
+#stan .box:focus .title {
+    --title-col: rgba(252, 131, 3, 1);
+}
+
+#more-pro .box:hover,
+#more-pro .box:focus {
+    --shadow-col: rgba(134, 155, 166, .25);
+    --bord-col: rgba(134, 155, 166, .1);
+}
+
+#more-pro .box:hover .title,
+#more-pro .box:focus .title {
+    --title-col: rgba(134, 155, 166, 1);
+}

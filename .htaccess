@@ -1,0 +1,37 @@
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+
+# First rewrite to HTTPS:
+# Don't put www. here. If it is already there it will be included, if not
+# the subsequent rule will catch it.
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Now, rewrite any request to the wrong domain to use www.
+# RewriteCond %{HTTP_HOST} !^(.+\.)([a-zA-Z0-9-]+\.([a-z]{2,4})|co\.uk|me\.uk|org\.uk|priv\.no)$
+# RewriteCond %{HTTP_HOST} ([a-zA-Z0-9-]+\.([a-z]{2,4})|co\.uk|me\.uk|org\.uk|priv\.no)$
+# RewriteRule ^(.*)$ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,QSA,R=301]
+# RewriteCond %{HTTP_HOST} ^[^.]+\.[^.]+$
+# RewriteRule ^(.*)$ https://www.%{HTTP_HOST}%{REQUEST_URI}/$1 [L,R=301]
+
+# Now, let's remove the .html from the sites
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+)$ $1.html [L,QSA]
+
+#301 from example.com/page.html to example.com/page
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /.*\.html\ HTTP/
+RewriteRule ^(.*)\.html$ /$1 [R=301,L]
+
+# Now, let's redirect people to custom sites when errors happen
+ErrorDocument 403 https://jahirfiquitiva.com/404.html
+ErrorDocument 404 https://jahirfiquitiva.com/404.html
+ErrorDocument 500 https://jahirfiquitiva.com/404.html
+
+# Gzip assets before sending to client
+AddOutputFilterByType DEFLATE text/html text/event-stream text/xml text/css text/javascript application/javascript application/json
+
+# Set cache lifetime for these files as a week
+<FilesMatch ".(js|css)$">
+    Header set Cache-Control "max-age=604800, public"
+</FilesMatch>

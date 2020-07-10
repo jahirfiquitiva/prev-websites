@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "Fira Code";
+    src: url(https://github.com/tonsky/FiraCode/raw/master/distr/ttf/FiraCode-Retina.ttf) format("monospace");
+}
+
+#changes .container {
+    max-width: 100% !important;
+}
+
+@media screen and (min-width: 1024px) {
+    #changes .container {
+        max-width: 80% !important;
+        width: 80% !important;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    #changes .container {
+        max-width: 65% !important;
+        width: 65% !important;
+    }
+}
+
+#changes-content .tag:not(body).is-medium {
+    font-size: 0.8rem !important;
+    padding-top: 0.4rem !important;
+    margin-bottom: 0.2rem !important;
+    margin-left: 0.4rem !important;
+}
+
+.content ul {
+    margin-left: 1em !important;
+}
+
+a.button {
+    margin-right: 1.2rem !important;
+    margin-top: .6rem !important;
+    border-color: transparent !important;
+}
+
+.button.is-github {
+    background-color: #333 !important;
+    color: #fff !important;
+}
+
+.button.is-github:hover,
+.button.is-github:focus,
+.button.is-github.is-active:focus,
+.button.is-github.is-active:hover {
+    background-color: #3f3f3f !important;
+    --shadow-col-a: rgba(45, 45, 45, .2);
+    --shadow-col-b: rgba(45, 45, 45, .14);
+    --shadow-col-c: rgba(45, 45, 45, .12);
+}
+
+#changes .box {
+    padding: 2rem !important;
+}
+
+.button.is-loading {
+    color: rgba(0, 0, 0, 0.9) !important;
+    padding-left: 2.4rem !important;
+    border: none transparent !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.button.is-loading:hover,
+.button.is-loading:focus {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.button.is-loading::after {
+    left: 0 !important;
+    top: calc(50% - (1em / 2) - 0.1em) !important;
+}
+
+.button.is-loading::after, .control.is-loading::after, .select.is-loading::after {
+    border-bottom-color: #4285F4 !important;
+    border-left-color: #4285F4 !important;
+}

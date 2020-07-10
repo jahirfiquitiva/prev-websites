@@ -1,0 +1,30 @@
+{
+	"name": "Jahir Fiquitiva 🌀",
+	"short_name": "Jahir Fiquitiva",
+	"icons": [{
+			"src": "/assets/img/brand/favicon32.png",
+			"type": "image/png",
+			"sizes": "32x32"
+		},
+		{
+			"src": "/assets/img/brand/favicon57.png",
+			"type": "image/png",
+			"sizes": "57x57"
+		},
+		{
+			"src": "/assets/img/brand/favicon72.png",
+			"type": "image/png",
+			"sizes": "72x72"
+		},
+		{
+			"src": "/assets/img/brand/favicon114.png",
+			"type": "image/png",
+			"sizes": "114x114"
+		}
+	],
+	"start_url": "/?homescreen=1",
+	"scope": "/",
+	"display": "standalone",
+	"background_color": "#FFFFFF",
+	"theme_color": "#F9FAFB"
+}

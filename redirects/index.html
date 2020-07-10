@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--suppress ES6ConvertVarToLetConst, SpellCheckingInspection, EqualityComparisonWithCoercionJS -->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Redirecting to...</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <p id="container"></p>
+        <script type="text/javascript" src="/assets/js/utils.min.js"></script>
+        <script type="text/javascript">
+            var array = window.location.search.substring(1).split("&");
+            var args = {};
+            for (var i = 0; i < array.length; i++) {
+                if (array[i].indexOf("=") >= 0) {
+                    var argArray = array[i].split("=");
+                    args[argArray[0]] = argArray[1];
+                } else {
+                    args[array[i]] = true;
+                }
+            }
+
+            var requestContent = new XMLHttpRequest();
+            requestContent.onreadystatechange = function () {
+                if (requestContent.readyState === 4) {
+                    if (requestContent.status === 200 || requestContent.status == 0) {
+                        var social = JSON.parse(requestContent.responseText);
+                        if (social != null && social[args.t] != null) {
+                            var url = social[args.t].url + (args.d != null ? "/"
+                                      + StringUtil.format(args.d, social[args.t].name) : "");
+                            var title = social[args.t].name;
+                            document.getElementById("container").innerHTML =
+                                "Redirecting you to <a href=\"" + url + "\">" + title
+                                + "</a> ... Please wait 😅";
+                            window.location = url;
+                            return;
+                        }
+                    }
+                    console.error(args, social);
+                    window.location = "/404.html";
+                }
+            };
+            requestContent.open("GET", "data.json", true);
+            requestContent.send(null);
+        </script>
+    </body>
+</html>

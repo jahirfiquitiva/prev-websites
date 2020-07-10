@@ -1,0 +1,58 @@
+{
+  "main": {
+    "url": "http://jahirfiquitiva.com",
+    "name": "Main Website"
+  },
+  "donate": {
+    "url": "https://jahirfiquitiva.com/thanks/#become",
+    "name": "Donation Site"
+  },
+  "contact": {
+    "url": "http://jahirfiquitiva.com/contact/",
+    "name": "Contact Site"
+  },
+  "twitter": {
+    "url": "https://twitter.com/intent/follow?screen_name=jahirfiquitiva",
+    "name": "Twitter"
+  },
+  "googleplus": {
+    "url": "https://google.com/+JahirFiquitivaR",
+    "name": "Google+"
+  },
+  "github": {
+    "url": "https://github.com/jahirfiquitiva",
+    "name": "GitHub"
+  },
+  "instagram": {
+    "url": "https://instagram.com/_u/jahirfiquitiva",
+    "name": "Instagram"
+  },
+  "googleplay": {
+    "url": "https://play.google.com/store/apps/dev?id=7438639276314720952",
+    "name": "Google Play Store"
+  },
+  "linkedin": {
+    "url": "https://www.linkedin.com/in/jahirfiquitiva",
+    "name": "LinkedIn"
+  },
+  "dribbble": {
+    "url": "https://dribbble.com/jahirfiquitiva",
+    "name": "Dribbble"
+  },
+  "telegram": {
+    "url": "https://t.me/jahirfiquitiva",
+    "name": "Telegram"
+  },
+  "medium": {
+    "url": "https://medium.com/@jahirfiquitiva",
+    "name": "Medium"
+  },
+  "stackoverflow": {
+    "url": "https://stackoverflow.com/users/4864104/jahir-fiquitiva",
+    "name": "StackOverflow"
+  },
+  "uplabs": {
+    "url": "https://www.uplabs.com/jahirfiquitiva",
+    "name": "UpLabs"
+  }
+}
