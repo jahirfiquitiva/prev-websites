@@ -9,6 +9,7 @@ There are 3 versions available:
 - [v3](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v3) Preview: [https://jahir-prev-v3.netlify.com/](https://jahir-prev-v3.netlify.com/)
 - [v4](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v4) Preview: [https://jahir-prev-v4.netlify.com/](https://jahir-prev-v4.netlify.com/)
 - [v5](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v5) Preview: [https://jahir-prev-v5.netlify.app/](https://jahir-prev-v5.netlify.app/)
+- [v6](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v6) Preview: [https://jahir-prev-v6.netlify.app/](https://jahir-prev-v6.netlify.app/)
 
 Feel free to use any of them but remember to comply with the license :wink:
 
@@ -48,6 +49,14 @@ Feel free to use any of them but remember to comply with the license :wink:
 	- [reCaptcha](https://www.google.com/recaptcha/)
 	- [Netlify Forms](https://docs.netlify.com/forms/setup/)
 
+- v6:
+	- [bulma](https://bulma.io)
+	- [Material Design Icons](materialdesignicons.com)
+	- [Manrope fonts](https://fonts.google.com/specimen/Manrope)
+	- [particles js](https://vincentgarreau.com/particles.js/)
+	- [reCaptcha](https://www.google.com/recaptcha/)
+	- [Netlify Forms](https://docs.netlify.com/forms/setup/)
+	
 ---
 
 ## Show some  :blue_heart:
