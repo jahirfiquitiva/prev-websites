@@ -47,7 +47,7 @@ Feel free to use any of them but remember to comply with the license :wink:
 	- [Meera Inimai fonts](https://fonts.google.com/specimen/Meera+Inimai)
 	- [particles js](https://vincentgarreau.com/particles.js/)
 	- [reCaptcha](https://www.google.com/recaptcha/)
-	- [Netlify Forms](https://docs.netlify.com/forms/setup/)
+	- [SMTP JS](https://smtpjs.com/)
 
 - v6:
 	- [bulma](https://bulma.io)
@@ -55,7 +55,7 @@ Feel free to use any of them but remember to comply with the license :wink:
 	- [Manrope fonts](https://fonts.google.com/specimen/Manrope)
 	- [particles js](https://vincentgarreau.com/particles.js/)
 	- [reCaptcha](https://www.google.com/recaptcha/)
-	- [Netlify Forms](https://docs.netlify.com/forms/setup/)
+	- [SMTP JS](https://smtpjs.com/)
 	
 ---
 
