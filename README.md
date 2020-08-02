@@ -5,9 +5,9 @@ I have created this repository to share the previous versions of [my website](ht
 
 There are 3 versions available:
 - v1 (I used a paid template so I can't share it)
-- [v2](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v2) Preview: [https://jahir-prev-v2.netlify.com/](https://jahir-prev-v2.netlify.com/)
-- [v3](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v3) Preview: [https://jahir-prev-v3.netlify.com/](https://jahir-prev-v3.netlify.com/)
-- [v4](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v4) Preview: [https://jahir-prev-v4.netlify.com/](https://jahir-prev-v4.netlify.com/)
+- [v2](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v2) Preview: [https://jahir-prev-v2.netlify.app/](https://jahir-prev-v2.netlify.app/)
+- [v3](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v3) Preview: [https://jahir-prev-v3.netlify.app/](https://jahir-prev-v3.netlify.app/)
+- [v4](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v4) Preview: [https://jahir-prev-v4.netlify.app/](https://jahir-prev-v4.netlify.app/)
 - [v5](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v5) Preview: [https://jahir-prev-v5.netlify.app/](https://jahir-prev-v5.netlify.app/)
 - [v6](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v6) Preview: [https://jahir-prev-v6.netlify.app/](https://jahir-prev-v6.netlify.app/)
 
