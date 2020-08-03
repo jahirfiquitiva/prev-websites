@@ -60,9 +60,9 @@ Feel free to use any of them but remember to comply with the license :wink:
 ---
 
 ## Show some  :blue_heart:
-[![GitHub stars](https://img.shields.io/github/stars/jahirfiquitiva/jahirfiquitiva.me.svg?style=social&label=Star)](https://github.com/jahirfiquitiva/jahirfiquitiva.me)
-[![GitHub forks](https://img.shields.io/github/forks/jahirfiquitiva/jahirfiquitiva.me.svg?style=social&label=Fork)](https://github.com/jahirfiquitiva/jahirfiquitiva.me/fork)
-[![GitHub watchers](https://img.shields.io/github/watchers/jahirfiquitiva/jahirfiquitiva.me.svg?style=social&label=Watch)](https://github.com/jahirfiquitiva/jahirfiquitiva.me)
+[![GitHub stars](https://img.shields.io/github/stars/jahirfiquitiva/prev-websites.svg?style=social&label=Star)](https://github.com/jahirfiquitiva/prev-websites)
+[![GitHub forks](https://img.shields.io/github/forks/jahirfiquitiva/prev-websites.svg?style=social&label=Fork)](https://github.com/jahirfiquitiva/prev-websites/fork)
+[![GitHub watchers](https://img.shields.io/github/watchers/jahirfiquitiva/prev-websites.svg?style=social&label=Watch)](https://github.com/jahirfiquitiva/prev-websites)
 
 ---
 
