@@ -60,6 +60,10 @@ Feel free to use any of them but remember to comply with the license :wink:
 
 - v7, v8 and v9:
 	- [NextJS](https://nextjs.org/)
+	- [Material Design Icons](materialdesignicons.com)
+	- [Manrope fonts](https://fonts.google.com/specimen/Manrope)
+	- [Formium](https://formium.io/)
+	- CSS modules
 	- Typescript
 	
 ---
