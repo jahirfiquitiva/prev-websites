@@ -10,6 +10,7 @@ There are 3 versions available:
 - [v4](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v4) Preview: [https://jahir-prev-v4.netlify.app/](https://jahir-prev-v4.netlify.app/)
 - [v5](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v5) Preview: [https://jahir-prev-v5.netlify.app/](https://jahir-prev-v5.netlify.app/)
 - [v6](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v6) Preview: [https://jahir-prev-v6.netlify.app/](https://jahir-prev-v6.netlify.app/)
+- [v7, v8 and v9](https://github.com/jahirfiquitiva/old-next-web) Preview: [https://old.jahir.dev/](https://old.jahir.dev/)
 
 Feel free to use any of them but remember to comply with the license :wink:
 
@@ -56,6 +57,9 @@ Feel free to use any of them but remember to comply with the license :wink:
 	- [particles js](https://vincentgarreau.com/particles.js/)
 	- [reCaptcha](https://www.google.com/recaptcha/)
 	- [SMTP JS](https://smtpjs.com/)
+
+- v7, v8 and v9:
+	- [NextJS](https://nextjs.org/)
 	
 ---
 
