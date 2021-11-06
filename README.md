@@ -60,6 +60,7 @@ Feel free to use any of them but remember to comply with the license :wink:
 
 - v7, v8 and v9:
 	- [NextJS](https://nextjs.org/)
+	- Typescript
 	
 ---
 
