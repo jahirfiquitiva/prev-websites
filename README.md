@@ -3,7 +3,7 @@ Previous websites
 
 I have created this repository to share the previous versions of [my website](https://jahir.dev/) with you all.
 
-There are 3 versions available:
+There are multiple versions available:
 - v1 (I used a paid template so I can't share it)
 - [v2](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v2) Preview: [https://jahir-prev-v2.netlify.app/](https://jahir-prev-v2.netlify.app/)
 - [v3](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v3) Preview: [https://jahir-prev-v3.netlify.app/](https://jahir-prev-v3.netlify.app/)
@@ -11,6 +11,7 @@ There are 3 versions available:
 - [v5](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v5) Preview: [https://jahir-prev-v5.netlify.app/](https://jahir-prev-v5.netlify.app/)
 - [v6](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v6) Preview: [https://jahir-prev-v6.netlify.app/](https://jahir-prev-v6.netlify.app/)
 - [v7, v8 and v9](https://github.com/jahirfiquitiva/old-next-web) Preview: [https://old.jahir.dev/](https://old.jahir.dev/)
+- [Latest version](https://github.com/jahirfiquitiva/jahir.dev)
 
 Feel free to use any of them but remember to comply with the license :wink:
 
