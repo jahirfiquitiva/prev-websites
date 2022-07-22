@@ -11,6 +11,7 @@ There are multiple versions available:
 - [v5](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v5) Preview: [https://jahir-prev-v5.netlify.app/](https://jahir-prev-v5.netlify.app/)
 - [v6](https://github.com/jahirfiquitiva/jahirfiquitiva.me/tree/v6) Preview: [https://jahir-prev-v6.netlify.app/](https://jahir-prev-v6.netlify.app/)
 - [v7, v8 and v9](https://github.com/jahirfiquitiva/old-next-web) Preview: [https://old.jahir.dev/](https://old.jahir.dev/)
+- [v10](https://github.com/jahirfiquitiva/jahir.dev/tree/v10) Preview: [https://v10.jahir.dev/](https://v10.jahir.dev/)
 - [Latest version](https://github.com/jahirfiquitiva/jahir.dev)
 
 Feel free to use any of them but remember to comply with the license :wink:
@@ -66,6 +67,19 @@ Feel free to use any of them but remember to comply with the license :wink:
 	- [Formium](https://formium.io/)
 	- CSS modules
 	- Typescript
+
+- v10:
+	- [NextJS](https://nextjs.org/)
+	- [Material Design Icons](materialdesignicons.com)
+	- [Manrope fonts](https://fonts.google.com/specimen/Manrope)
+	- [Inter fonts](https://fonts.google.com/specimen/Inter)
+	- [Emotion](https://emotion.sh/)
+	- [MDX](https://github.com/mdx-js/mdx)
+	- [Contentlayer](https://github.com/contentlayerdev/contentlayer)
+	- [Notion API](https://developers.notion.com/)
+	- [Railway](https://railway.app/?referralCode=Ri5XbE)
+	- [Prisma](https://prisma.io/)
+	- Typescript
 	
 ---
 
@@ -97,7 +111,7 @@ If you found this repository helpful and want to thank me, you can:
 
 This app is shared under the CreativeCommons Attribution-ShareAlike license.
 
-	Copyright © 2020 Jahir Fiquitiva
+	Copyright © 2022 Jahir Fiquitiva
 
 	Licensed under the CreativeCommons Attribution-ShareAlike 
 	4.0 International License. You may not use this file except in compliance 
