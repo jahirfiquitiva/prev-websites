@@ -62,7 +62,7 @@ Feel free to use any of them but remember to comply with the license :wink:
 	- [SMTP JS](https://smtpjs.com/)
 
 - v7, v8 and v9:
-	- [NextJS](https://nextjs.org/)
+	- [Next.js](https://nextjs.org/)
 	- [Material Design Icons](materialdesignicons.com)
 	- [Manrope fonts](https://fonts.google.com/specimen/Manrope)
 	- [Formium](https://formium.io/)
@@ -70,7 +70,7 @@ Feel free to use any of them but remember to comply with the license :wink:
 	- Typescript
 
 - v10:
-	- [NextJS](https://nextjs.org/)
+	- [Next.js](https://nextjs.org/)
 	- [Material Design Icons](materialdesignicons.com)
 	- [Manrope fonts](https://fonts.google.com/specimen/Manrope)
 	- [Inter fonts](https://fonts.google.com/specimen/Inter)
@@ -83,7 +83,7 @@ Feel free to use any of them but remember to comply with the license :wink:
 	- Typescript
 	
 - v11:
-	- [NextJS](https://nextjs.org/)
+	- [Next.js](https://nextjs.org/)
 	- [Material Design Icons](materialdesignicons.com)
 	- [Manrope fonts](https://fonts.google.com/specimen/Manrope)
 	- [Inter fonts](https://fonts.google.com/specimen/Inter)
