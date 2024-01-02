@@ -13,6 +13,7 @@ There are multiple versions available:
 - [v7, v8 and v9](https://github.com/jahirfiquitiva/old-next-web) Preview: [https://old.jahir.dev/](https://old.jahir.dev/)
 - [v10](https://github.com/jahirfiquitiva/jahir.dev/tree/v10) Preview: [https://v10.jahir.dev/](https://v10.jahir.dev/)
 - [v11](https://github.com/jahirfiquitiva/jahir.dev/tree/v11) Preview: [https://v11.jahir.dev/](https://v11.jahir.dev/)
+- [v12](https://github.com/jahirfiquitiva/jahir.dev/tree/v12) Preview: [https://v12.jahir.dev/](https://v12.jahir.dev/)
 - [Latest version](https://github.com/jahirfiquitiva/jahir.dev)
 
 Feel free to use any of them but remember to comply with the license :wink:
@@ -94,6 +95,17 @@ Feel free to use any of them but remember to comply with the license :wink:
 	- [PlanetScale](https://planetscale.com/)
 	- [Prisma](https://prisma.io/)
 	- Typescript
+ 	
+- v12:
+	- [Next.js](https://nextjs.org/)
+	- [Material Design Icons](materialdesignicons.com)
+	- [Manrope fonts](https://fonts.google.com/specimen/Manrope)
+	- [Inter fonts](https://fonts.google.com/specimen/Inter)
+	- [Tailwind CSS](https://tailwindcss.com/)
+	- [MDX](https://github.com/mdx-js/mdx)
+	- [Contentlayer](https://github.com/contentlayerdev/contentlayer)
+	- [PlanetScale](https://planetscale.com/)
+	- Typescript
 	
 ---
 
@@ -125,7 +137,7 @@ If you found this repository helpful and want to thank me, you can:
 
 This app is shared under the CreativeCommons Attribution-ShareAlike license.
 
-	Copyright © 2023 Jahir Fiquitiva
+	Copyright © 2024 Jahir Fiquitiva
 
 	Licensed under the CreativeCommons Attribution-ShareAlike 
 	4.0 International License. You may not use this file except in compliance 
